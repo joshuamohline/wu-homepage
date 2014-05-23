@@ -8,28 +8,28 @@ body.ipad .block#leader .iPad {
 }
 
 body.ipad .img2 {
-	background: url(assets/images/photo-cafe-md.jpg) no-repeat; 
+	background: url(../images/photo-cafe-md.jpg) no-repeat; 
 	height: 600px;
 	background-position-y: 50%;
 	background-size: 100%;
 }
 
 body.ipad .img3 {
-	background: url(assets/images/photo-library-md.jpg)no-repeat; 
+	background: url(../images/photo-library-md.jpg)no-repeat; 
 	height: 600px;
 	background-position-y: 50%;
 	background-size: 100%;
 }
 
 body.ipad .img4 {
-	background: url(assets/images/photo-sofa-md.jpg)no-repeat; 
+	background: url(../images/photo-sofa-md.jpg)no-repeat; 
 	height: 600px;
 	background-position-y: 50%;
 	background-size: 100%;
 }
 
 body.ipad .img5 {
-	background: url(assets/images/photo-sofa-md.jpg)no-repeat; 
+	background: url(../images/photo-sofa-md.jpg)no-repeat; 
 	height: 600px;
 	background-position-y: 75%;
 	background-size: 100%;
@@ -43,25 +43,25 @@ body.iphone .img1 {
 }
 
 body.iphone .img2 {
-	background: url(assets/images/photo-cafe-sm.jpg) no-repeat; 
+	background: url(../images/photo-cafe-sm.jpg) no-repeat; 
 	height: 320px;
 	background-size: 100%;
 }
 
 body.iphone .img3 {
-	background: url(assets/images/photo-library-sm.jpg) no-repeat; 
+	background: url(../images/photo-library-sm.jpg) no-repeat; 
 	height: 320px;
 	background-size: 100%;
 }
 
 body.iphone .img4 {
-	background: url(assets/images/photo-sofa-sm.jpg) no-repeat bottom; 
+	background: url(../images/photo-sofa-sm.jpg) no-repeat bottom; 
 	height: 320px;
 	background-size: 100%;
 }
 
 body.iphone .img5 {
-	background: url(assets/images/photo-sofa-sm.jpg) no-repeat; 
+	background: url(../images/photo-sofa-sm.jpg) no-repeat; 
 	height: 320px;  
 	background-size: 100%;
 }
@@ -158,5 +158,3 @@ body.iphone .img5 {
 
 
 }
-
-
