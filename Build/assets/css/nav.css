@@ -1,0 +1,74 @@
+/* Write your CSS! */
+.navbar {
+  width: 100%;
+  display: table;
+  height: 50px;
+  padding: 10px; }
+
+.navbar-brand {
+  padding-top: 5px; }
+
+.logo {
+  height: 36px; }
+
+.navbar-default .navbar-nav > li > a {
+  font-family: "proxima_nova_ltsemibold";
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1em;
+  color: #4f4f4f;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none; }
+
+.navbar a:hover {
+  color: #303030;
+  text-decoration: none; }
+
+.trial-button {
+  background-color: #6fda8c;
+  border-radius: 4px;
+  margin-left: 10px;
+  padding-left: 8px;
+  padding-right: 8px; }
+
+.navbar-default .navbar-nav > li.trial-button a {
+  color: #fff; }
+
+.trial-button a:hover {
+  text-decoration: none;
+  color: #fff; }
+
+.navbar-default .navbar-nav > li.trial-button a:active {
+  color: #f0f0f0;
+  -webkit-transition: all 0.1s linear; }
+
+.trial-button:hover {
+  background-color: #66c680;
+  -webkit-transition: all 0.3s linear; }
+
+html {
+  height: 100%; }
+
+@media (max-width: 1024px) {
+  .trial-button {
+    text-align: center;
+    margin-right: 10px; } }
+@media (max-width: 390px) {
+  .navbar {
+    height: 64px; }
+
+  .navbar-brand {
+    padding-top: 2px;
+    margin-left: -10px; }
+
+  .logo {
+    height: 26px; }
+
+  .navbar-toggle {
+    margin-top: -2px;
+    margin-right: -2px; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
+  /* Don't forget your Retina CSS! */
+  body {
+    background-size: 72px 72px; } }

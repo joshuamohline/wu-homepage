@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  
+        <!-- Hammer reload -->
+          <script>
+            setInterval(function(){
+              try {
+                if(typeof ws != 'undefined' && ws.readyState == 1){return true;}
+                ws = new WebSocket('ws://'+(location.host || 'localhost').split(':')[0]+':35353')
+                ws.onopen = function(){ws.onclose = function(){document.location.reload()}}
+                ws.onmessage = function(){
+                  var links = document.getElementsByTagName('link'); 
+                    for (var i = 0; i < links.length;i++) { 
+                    var link = links[i]; 
+                    if (link.rel === 'stylesheet' && !link.href.match(/typekit/)) { 
+                      href = link.href.replace(/((&|\?)hammer=)[^&]+/,''); 
+                      link.href = href + (href.indexOf('?')>=0?'&':'?') + 'hammer='+(new Date().valueOf());
+                    }
+                  }
+                }
+              }catch(e){}
+            }, 1000)
+          </script>
+        <!-- /Hammer reload -->
+      
+  
+  <link rel='stylesheet' href='assets/css/normalize.css'>
+<link rel='stylesheet' href='assets/css/bootstrap-theme.css'>
+<link rel='stylesheet' href='assets/css/bootstrap.css'>
+<link rel='stylesheet' href='assets/css/nav.css'>
+<link rel='stylesheet' href='assets/css/ios.css'>
+<link rel='stylesheet' href='assets/css/home.css'>
+<link rel='stylesheet' href='assets/css/core-classes.css'>
+<link rel='stylesheet' href='assets/css/music-classes.css'>
+<link rel='stylesheet' href='assets/css/lesson.css'>
+<link rel='stylesheet' href='assets/css/instructors.css'>
+<link rel='stylesheet' href='assets/css/stories.css'>
+<link rel='stylesheet' href='assets/css/faq.css'>
+<link rel='stylesheet' href='assets/css/privacy.css'>
+<link rel='stylesheet' href='assets/css/terms.css'>
+<link rel='stylesheet' href='assets/css/colorbox.css'>
+<link rel='stylesheet' href='assets/css/footer.css'>
+  <script src='assets/js/jquery-1.8.3.min.js'></script>
+<script src='assets/js/jquery.stellar.js'></script>
+<script src='assets/js/bootstrap.js'></script>
+<script src='assets/js/device.js'></script>
+<script src='assets/js/jquery.colorbox-min.js'></script>
+<script src='assets/js/app.js'></script>
+  
+  <link href="assets/favicon.ico" rel="shortcut icon">
+  <link href="assets/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <title>WorshipU</title>
+  
+</head>
+
+<body>
+
+  <header class = "main-header">
+    
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"><img class= "logo" src="assets/images/logo@2x.png"></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href= "core-classes.html">Classes</a></li>
+		    <li><a href= "">Blog</a></li>
+		    <li><a href= "">Sign In</a></li>
+		    <li class= "trial-button"><a href= "">Start Free Trial</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+  </header>
+
+  <section>
+    <!-- Write your HTML! -->
+    <div class="hero-img" id="keyboards"></div>
+
+
+	<div class="block" id="lesson-description">
+    	<div class="container">
+	    	<div class="row">
+	  			<div class="col-md-12"><h1>Keyboards</h1>
+				<p>Worship music is continually evolving with each new generation. It seems that through every changing season, the keyboard remains a constant. From the early harpsichord and grand pianos, to the cathedral pipe organs, and into the modern era, the keyboard is continually rejuvenating its relevance in worship music. Over the past few years, keys have rapidly transformed in the worship band setting. It has become very popular to add in unique synths, warm pads, loops, patterns and piano parts. 
+                <br><br>Playing basic piano chords or reading from chord sheet have become secondary roles for the keys player in the worship setting. This class is designed to help you stay ahead of the curve with your keyboard sounds and styles. 
+                <br><br>Taught by Bethel Music and Jesus Culture keyboardist, Ian McIntosh, you will learn how to get the sounds you want from your keyboard. Ian demonstrates how to play the piano in such a way that it fosters creativity, fullness, and blends well with the rest of the worship team. His years of proven experience are trustworthy and easy to understand for keyists and worship leaders looking to learn the art of the keyboard at a deeper level. 
+                <br><br>His lessons touch primarily on when and where to use the various sounds available to a typical worship band keyboardist today. This includes sounds such as classic piano, electric piano, atmospheric pads, buzzy sounds, synthesizers and more. He gives simple tips to remember how to apply these sounds in such a way that the worship experience is maximized for your team and congregation. 
+                <br><br>Also, he breaks down the giant world of effects and how to partner them with your sounds. He shares what effects and levels he uses to find the perfect tone. Reverb, compression, EQ and other effects will now be easier for you to understand and implement into your keys playing. 
+                <br><br>This course is recommended for individuals with some previous playing experience and access to technologies such as: Ableton, Reason, Logic, Garage Band, Midi Keyboards, or protools.</p>
+				</div>
+
+			</div>
+		</div>
+    </div>
+
+    <div class="block" id="sample-lesson">
+    	<div class="container">
+	    	<div class="row">
+    			<div class="col-lg-12"><h1>Try a Sample Lesson</h1>
+<!--     			<a class='youtube cboxElement' href="http://www.youtube.com/embed/mTFMPZJC-7k?rel=0&autoplay=1&wmode=transparent"/><img class="sample-lesson-thumb" src="assets/images/sample-lesson.jpg"></a> -->
+
+    			<div class="videoWrapper">
+    				<iframe width="560" height="349" src="http://www.youtube.com/embed/7Zidv0DlhKU" frameborder="0" allowfullscreen></iframe>
+  				</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>	
+
+  
+
+
+	
+
+
+
+
+
+  </section>
+  
+</body>
+	<div class="clearfix footer-bg">
+		<p>Need help or have questions? Our team is here to help! Call us toll free: 855-939-6774</p>
+		<ul class="footer">	
+			<li> <a href="faq.html">FAQ</a> </li>
+			<li> <a href="terms.html">Terms</a> </li>
+			<li> <a href="privacy.html">Privacy</a> </li>
+			<li> <a href="#">Contact</a> </li>
+		</ul>
+		<div class="copyright">Copyright WorshipU 2014</div>
+	</div>
+</html>

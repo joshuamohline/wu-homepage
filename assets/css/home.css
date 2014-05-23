@@ -1,0 +1,746 @@
+@font-face {
+    font-family: 'proxima_nova_ltsemibold';
+    src: url('../fonts/proximanova-sbold-webfont.eot');
+    src: url('../fonts/proximanova-sbold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proximanova-sbold-webfont.woff') format('woff'),
+         url('../fonts/proximanova-sbold-webfont.ttf') format('truetype'),
+         url('../fonts/proximanova-sbold-webfont.svg#proxima_nova_ltsemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'proxima_nova_rgregular';
+    src: url('../fonts/proximanova-reg-webfont.eot');
+    src: url('../fonts/proximanova-reg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proximanova-reg-webfont.woff') format('woff'),
+         url('../fonts/proximanova-reg-webfont.ttf') format('truetype'),
+         url('../fonts/proximanova-reg-webfont.svg#proxima_nova_rgregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.img1 {
+	background: url(../images/photo-hero-lg.jpg) no-repeat top right;
+	height: 700px;
+	width: 100%;
+	background-size: cover;
+	background-position-x: 100% !important; 
+}
+
+.presents {
+	background-color: #f0f0f0;
+	font-family: "proxima_nova_ltsemibold";
+	font-size: 1em;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	color: #4f4f4f;
+	text-align: center;
+	width: 100%;
+	height: 40px;
+	margin-top: 70px;
+	padding-top: 12px;
+	opacity: .9;
+}
+
+.header {
+	font-family: "proxima_nova_ltsemibold";
+	font-size: 5em;
+	color: #fff;
+	padding-top: 250px;
+	line-height: 1em;
+}
+
+.sub-header {
+	font-family: "proxima_nova_ltsemibold";
+	font-size: 1.5em;
+	color: #fff;
+	letter-spacing: 1px;
+	padding-top: 10px;
+}
+
+.trial-button#hero {
+	font-family: "proxima_nova_ltsemibold";
+	font-size: 1em;
+	color: #fff;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	width: 35%;
+	text-align: center;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	margin-top: 20px;
+	margin-left: 0; 
+	display: inline-block;
+}
+
+.trial-button#hero:hover {
+	text-decoration: none;
+	color: #f0f0f0;
+
+}
+
+.video-button {
+	font-family: "proxima_nova_ltsemibold";
+	font-size: 1em;
+	color: #fff;
+	background-color: #ababab;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	width: 35%;
+	border-radius: 4px;
+	display: inline-block;
+	text-align: center;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	margin-top: 20px;
+	margin-left: 20px; 
+	text-decoration: none;
+}
+
+.video-button:hover {
+	background-color: #8b8b8b;
+	-webkit-transition: all 0.3s linear;
+	text-decoration: none;
+	color: #e0e0e0;
+
+}
+
+.video-button:focus {
+	color: #fff;
+	text-decoration: none;
+	outline: 0;
+}
+
+
+.block {
+	width: 100%;
+	height: 500px;
+	background-color: #fff;
+}
+
+.block h1 {
+	font-family: "proxima_nova_ltsemibold";
+	font-size: 2.5em;
+	letter-spacing: 2px;
+	color: #4f4f4f;
+	text-transform: uppercase;
+}
+
+.block p {
+	font-family: "proxima_nova_rgregular";
+	font-size: 1.3em !important;
+	color: #4f4f4f;
+}
+
+.block a {
+	font-family: "proxima_nova_ltsemibold";
+	font-size: 1.3em;
+	color: #4f4f4f;
+}
+
+.block#leader h1 {
+	padding-top: 150px;
+	margin-bottom: 0px;
+	padding-bottom: 6px;
+}
+
+.iPad {
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 14%;
+	margin-bottom: 5%;
+
+}
+
+.img2 {
+	background: url(../images/photo-cafe-lg.jpg) no-repeat bottom left;
+	height: 900px;
+	width: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+.block#songwriting h1 {
+	padding-top: 120px;
+	margin-bottom: 0px;
+	padding-bottom: 6px;
+}
+
+.MacBook {
+	width: 100%;
+	margin-top: 14%;
+}
+
+
+.img3 {
+	background: url(../images/photo-library-lg.jpg) no-repeat bottom right;
+	height: 700px;
+	width: 100%;
+	background-size: cover;
+	background-position-x: 50% !important; 
+	background-attachment: fixed;
+}
+
+.community-pic {
+	width:60px;
+	float:left;
+	
+}
+
+.student1 {
+	height: 60px;
+	width: 200px;
+	margin-top: -200px;
+	margin-left: 20px;
+	position: relative;
+}
+
+.student-name {
+	font-family: "proxima_nova_ltsemibold";
+	font-size: .9em;
+	color: #4f4f4f;
+	padding-left: 66px;
+	padding-top: 12px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.location {
+	font-family: "proxima_nova_rgregular";
+	font-size: .7em;
+	color: #4f4f4f;
+	padding-left: 66px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.student2 {
+	height: 60px;
+	width: 200px;
+	float: left;
+	position: relative;
+	margin-top: -140px;
+	margin-left: 250px;
+}
+
+.student3 {
+	height: 60px;
+	width: 240px;
+	float: left;
+	position: relative;
+	margin-top: 60px;
+	margin-left: 260px;
+}
+
+.student4 {
+	height: 60px;
+	width: 200px;
+	float: left;
+	position: relative;
+	margin-top: -170px;
+	margin-left: 370px;
+}
+
+.map {
+	width: 100%;
+	margin-top: 20%;
+	
+}
+
+.block#community h1 {
+	padding-top: 140px;
+	margin-bottom: 0px;
+	padding-bottom: 6px;
+}
+
+.block#community h1,
+.block#community p,
+.block#community a {
+	margin-left: 20px;
+}
+
+
+.img4 {
+	background: url(../images/photo-sofa-lg.jpg) no-repeat;
+	height: 700px;
+	width: 100%;
+	background-size: cover;
+	background-position-x: 100% !important;
+	background-attachment: fixed;
+}
+
+.block#instructors h1 {
+	padding-top: 140px;
+	margin-bottom: 0px;
+	padding-bottom: 6px;
+}
+
+
+.instructors-img-lg {
+	padding-top: 140px;
+	padding-left: 50px;
+	width: 100%;
+}
+
+.instructors-img-sm {
+	display: none;
+}
+
+
+.img5 {
+	background: url(../images/photo-sofa-lg.jpg) no-repeat bottom left;
+	height: 700px;
+	width: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+.block#stories {
+	height: 500px;
+}
+
+.block#stories h1 {
+	padding-top: 80px;
+	text-align: center;
+}
+
+.block#stories p {
+	text-align: center;
+}
+
+.block#stories a {
+	padding-bottom: 0px;
+}
+
+.story-body {
+	font-size: 1.1em;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+
+.story {
+	font-family: "proxima_nova_rgregular";
+	background-color: #f6f6f6;
+	padding-left: 15px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+
+}
+
+.student-pic {
+	width: 100px;
+	height: 100px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-right:15px; 
+	float: left;
+}
+
+.name {
+	font-family: "proxima_nova_ltsemibold";
+	font-size: 1.1em;
+	color: #4f4f4f;
+	margin-bottom: 15px;
+}
+
+
+#stories a {
+	display: block;
+	text-align: center;
+}
+
+.trial-block {
+	height: 140px;
+	width: 100%;
+	background-color: #303030;	
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+}
+
+.button {
+	font-family: "proxima_nova_ltsemibold";
+	font-size: 1.2em;
+	text-align: center;
+	color: #fff;
+	background-color: #6fda8c;
+	width: 350px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	border-radius: 4px;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	display: block;
+	margin-left:auto;
+	margin-right: auto;
+	margin-top: 14px;
+
+}
+
+
+.button:hover {
+	background-color: #66c680;
+	-webkit-transition: all 0.3s linear;
+	text-decoration: none;
+	color: #f0f0f0;
+}
+
+.button:active {
+	color: #f0f0f0;	
+	-webkit-transition: all 0.1s linear;
+	text-decoration: none;
+	color: #e0e0e0;
+
+}
+
+@media (max-width:1199px) {
+
+	.block#leader h1 {
+		padding-top: 150px;
+	}
+
+	.iPad {
+		margin-top: 23%;
+		margin-left: 12%;
+	}
+
+	.block#songwriting h1 {
+		padding-top: 110px;
+	}
+
+	.MacBook {
+		margin-top: 24%;
+	}
+
+	.block#community h1 {
+		padding-top: 120px;
+	}
+		
+	.student1 {
+		margin-left: 0px;
+		margin-top: -150px;
+	}
+
+	.student2 {
+		margin-left: 200px;
+		margin-top: -150px;
+	}
+
+	.student3 {
+		margin-left: 220px;
+		margin-top: 30px;
+	}
+
+	.student4 {
+		margin-left: 300px;
+		margin-top: -160px;
+	}
+
+	.map {
+		margin-top: 130px;
+	}
+
+	.instructors-img-lg {
+		padding-top: 160px;
+	}
+
+	
+}
+
+
+@media (max-width: 991px) {
+	
+	.header {
+		padding-top: 300px;
+	}
+
+
+	.iPad {
+		margin-top: 40%;
+		margin-left: 15%;
+	}
+
+	.block#leader h1 {
+		padding-top: 100px; 
+	}
+	
+	.block#songwriting h1 {
+		padding-top: 90px;
+	}
+
+	.MacBook {
+		margin-top: 40%;
+	}
+
+	.block#songwriting h1,
+	.block#songwriting p,
+	.block#songwriting a {
+		margin-left: 20px;
+	}
+
+	.block#community h1 {
+		padding-top: 90px;
+	}
+	.block#community h1,
+	.block#community p,
+	.block#community a {
+		margin-left: 20px;
+	}
+
+
+	.block#instructors h1 {
+		padding-top: 90px;
+	}
+
+	.instructors-img-lg {
+		display: none;
+	}
+
+	.instructors-img-sm {
+		display: block;
+		width: 100%;
+		padding-left: 60px;
+		padding-top: 160px;
+	}
+
+	.community-pic {
+		height: 50px;
+		width: 50px;
+	}
+
+	.student1 {
+		margin-top: -140px;
+	}
+
+	.student2 {
+		margin-left: 150px;
+		margin-top: -95px;
+	}
+
+	.student3 {
+		margin-left: 160px;
+		margin-top: 40px;
+	}
+
+	.student4 {
+		margin-left: 220px;
+		margin-top: -130px;
+	}
+
+	.student-name,
+	.location {
+		display: none;
+	}
+
+	.map {
+		padding-top: 60px;
+	}
+
+	.block#stories h1 {
+	padding-top: 0px;
+	}
+
+	.block#stories {
+		height: auto;
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+
+	.story {
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+	}	
+
+}
+
+
+@media (max-width:767px) {
+
+	.img1 {
+	background: url(../images/photo-hero-md.jpg) no-repeat right;
+	
+	}
+
+	.header {
+		padding-top: 340px;
+	}
+
+	.header,
+	.sub-header {
+	 	padding-left: 20px;
+	}
+
+	.trial-button#hero {
+		margin-left: 20px;
+	}
+
+	.block {
+		height: auto;
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+
+	.block h1 {
+		text-align: center;
+	}
+
+	.block#leader h1, 
+	.block#community h1,
+	.block#instructors h1,
+	.block#stories h1,
+	.block#songwriting h1 {
+		padding-top: 0; 
+		margin-left: 0;
+	}
+
+	.block p {
+		text-align: center;
+		margin-left: 5%;
+		margin-right: 5%; 
+	}
+
+	.block a {
+		display: block;
+		text-align: center;
+	}
+
+	.block#stories {
+		height: auto;
+	}
+
+	.story {
+		margin-left: auto;
+		margin-right: auto;
+		width: 95%
+	}
+
+	.block#stories a {
+	padding-bottom: 40px;
+}
+
+
+}
+
+@media (max-width:600px) {
+
+	.img1 {
+		background: url(../images/photo-hero-sm.jpg) no-repeat right;
+		height: auto;
+		background-position-x: 50%!important;
+
+	}
+
+	.trial-button#hero {
+		margin-left: 0;
+	}
+
+	.presents {
+		display: none;
+	}
+
+	.trial-button#hero,
+	.video-button {
+		width: 100%;
+	}
+
+	.video-button {
+		margin-left: 0;
+		margin-bottom: 20px;
+	}
+
+	.header {
+		padding-top: 200px;
+	}
+	.sub-header {
+		margin-right: 20px;
+	}
+
+	.block#leader {
+		padding-top: 60px;
+	}
+
+	.img2 {
+		background-position-x: 10%!important;
+	}
+
+	.img3 {
+		background-position-x: 60%!important;
+	}
+
+	.img4 {
+		background-position-x: 80%!important;
+	}
+
+}
+
+@media (max-width:390px) {
+	.img1 {
+		background-position-x: 0;
+	}
+
+	.header {
+		padding-top: 70px;
+		font-size: 4em;
+		line-height: .9em;
+	}
+
+	.sub-header {
+		font-size: 1.2em;
+	}
+
+	.block {
+		height: 360px;
+		padding-top: 20px;
+	
+	}
+	.block h1 {
+		font-size: 2.3em;
+	}
+
+	.block p {
+		font-size: 1.2em !important;
+	}
+
+	.block a {
+		font-size: 1.2em;
+		margin-bottom: -10px;
+	}
+	
+	.block#leader {
+		padding-top: 26px;
+		height: 340px;
+	}
+
+	.trial-block {
+		padding-top: 18px;
+		padding-bottom: 0px;
+	}
+
+	.button {
+		width: 80%;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.nav.navbar-nav.navbar-right {
+		height: 184px;
+	}
+
+	.block#stories {
+		padding-top: 20px;
+	}
+
+	.name {
+		margin-left: 114px;
+	}
+}
+
+
+

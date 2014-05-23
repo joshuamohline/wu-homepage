@@ -1,0 +1,240 @@
+.hero-img#instructors {
+	background: url(../images/instructors-hero-lg.jpg) no-repeat top right;
+	background-size: cover;
+	height: 700px;
+	width: 100%;
+	background-position-x: 50% !important;
+}
+
+.block#instructor-summary {
+	height: auto;
+	padding-top: 60px;
+	padding-bottom: 80px;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+.block#instructor-summary h1 {
+	text-align: center;
+	width: 60%;	
+	margin-left: 20%;
+}
+
+.block#instructor-summary p {
+	padding-top: 10px;
+	width: 60%;
+	margin-left: 20%;
+	text-align:justify;
+	text-justify:inter-word;
+}
+
+.instructor-nav {	
+	font-family: "proxima_nova_ltsemibold";
+	font-size: 1.1em;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 0px;
+	color: #ababab;	
+}
+
+.instructor-nav .on {
+	background-color: #fff!important;
+	color: #4f4f4f!important;
+}
+
+.instructor-nav .off {
+	cursor: pointer;
+
+}
+
+.instructor-nav .off:hover {
+	background-color: #f6f6f6;
+	color: #4f4f4f;
+	-webkit-transition: all 0.2s linear;
+}
+
+.instructor-nav .arrow-down {
+	margin-left: 23%!important;
+}
+
+#music-instructors-button .arrow-down {
+	display: none;
+}
+
+.core-nav-box1,
+.music-nav-box2 {
+	height: 50px;
+	padding-top: 16px;
+	width: 50%;
+	background-color: #f0f0f0;
+	display: inline-block;	
+}
+
+.core-nav-box1 {
+	float: left;
+}
+
+.music-nav-box2 {
+	padding-left: 6px;
+}
+
+
+
+.instructor-photos {
+	background-color: #202020;
+	height: auto;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.instructor {
+	margin-top: 10px;
+	text-align: center;
+}
+
+
+.instructor-photos p {
+	color: #e0e0e0;
+	padding-top: 10px;
+}
+
+.instructor-photo {
+	width: 100%;
+}
+
+#music-instructors {
+	display: none;
+}
+
+@media (max-width: 991px) {
+
+	.block#instructor-summary h1,
+	.block#instructor-summary p {
+		width: 80%;
+		margin-left: 10%;
+	}
+
+	.instructor-photos {
+		padding-left: 0%;
+	}
+}
+
+
+@media (max-width: 767px) {
+
+	.block#instructor-summary h1,
+	.block#instructor-summary p {
+		width: 90%;
+		margin-left: 5%;
+	}
+
+	.instructor-photo {
+		width: 70%;
+		
+	}
+
+	.instructor-photos {
+		margin-bottom: 60px;
+	}
+	
+
+}
+
+
+@media (max-width: 580px) {
+	.core-nav-box1,
+	.music-nav-box2 {
+		font-size: .7em;
+	}
+
+	.instructor-nav .arrow-down {
+		margin-left: 21%!important;
+	}
+}
+
+
+@media (max-width: 500px) {
+
+	.instructor-photo {
+		width: 90%;
+		}
+
+}
+
+@media (max-width: 480px) {
+	.instructor-nav .arrow-down {
+		margin-left: 20%!important;
+	}
+}
+
+
+
+
+/*//////////IPHONE/////////*/
+
+body.iphone .hero-img#instructors {
+	height: 460px;
+}
+
+body.iphone .block#instructor-summary {
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+
+body.iphone .instructor-nav .core-nav-box1,
+body.iphone .instructor-nav .music-nav-box2 {
+	height: 70px;
+}
+
+
+body.iphone .instructor-photo {
+	width: 120px;
+	height: 120px;
+}
+
+body.iphone .instructor p {
+	width: 100px;
+
+}
+
+body.iphone .instructor-nav .arrow-down {
+	margin-top: 15px;
+	margin-left: 60px!important;
+}
+
+body.iphone .instructor-nav {
+	font-size: 1.2em;
+}
+
+
+/*//////////IPHONE LANDSCAPE/////////*/
+
+@media (min-width: 480px) {
+
+body.iphone .instructor-nav .core-nav-box1,
+body.iphone .instructor-nav .music-nav-box2 {
+	height: 50px;
+}
+
+body.iphone .instructor-nav .arrow-down {
+	margin-top: 10px;
+	margin-left: 116px!important;
+}
+
+body.iphone .instructor-photos {
+	/*padding-left: 50px;*/
+}
+
+body.iphone .instructor-photo {
+	height: 160px;
+	width: 160px;
+}
+
+body.iphone .instructor p{
+	width: auto;
+	padding-left: 0;
+}
+
+}
+
+
