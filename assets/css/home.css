@@ -84,6 +84,7 @@
 }
 
 .video-button {
+	-webkit-transition: all 0.3s ease-in-out;
 	font-family: "proxima_nova_ltsemibold";
 	font-size: 1em;
 	color: #fff;
@@ -103,7 +104,6 @@
 
 .video-button:hover {
 	background-color: #8b8b8b;
-	-webkit-transition: all 0.3s linear;
 	text-decoration: none;
 	color: #e0e0e0;
 
@@ -365,6 +365,7 @@
 }
 
 .button {
+	-webkit-transition: all 0.3s ease-in-out;
 	font-family: "proxima_nova_ltsemibold";
 	font-size: 1.2em;
 	text-align: center;
@@ -386,7 +387,6 @@
 
 .button:hover {
 	background-color: #66c680;
-	-webkit-transition: all 0.3s linear;
 	text-decoration: none;
 	color: #f0f0f0;
 }

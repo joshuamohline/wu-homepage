@@ -26,6 +26,7 @@
   text-decoration: none; }
 
 .trial-button {
+  -webkit-transition: all 0.3s ease-in-out;
   background-color: #6fda8c;
   border-radius: 4px;
   margin-left: 10px;
@@ -44,8 +45,7 @@
   -webkit-transition: all 0.1s linear; }
 
 .trial-button:hover {
-  background-color: #66c680;
-  -webkit-transition: all 0.3s linear; }
+  background-color: #66c680; }
 
 html {
   height: 100%; }

@@ -22,6 +22,7 @@
 }
 
 .active {
+	-webkit-transition: all 0.3s ease-in-out;
 	background-color: #fff!important;
 	color: #4f4f4f!important;
 	position: fixed;
@@ -30,7 +31,7 @@
 .not-active:hover {
 	background-color: #f6f6f6;
 	color: #4f4f4f;
-	-webkit-transition: all 0.2s linear;
+	
 }
 
 .nav-box1,
@@ -153,6 +154,7 @@
 }
 
 .theme-cube {
+	-webkit-transition: all 0.3s ease-in-out;
 	background-color: #f6f6f6;
 	display: block;
 	margin-bottom: 30px;
@@ -164,7 +166,6 @@
 	text-decoration: none;
 	background-color: #f0f0f0;
 	text-decoration: none;
-	-webkit-transition: all 0.3s linear;
 }
 
 .theme-cube h1 {
