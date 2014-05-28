@@ -11,8 +11,19 @@
 	height: 50px;
 }
 
-.form-horizontal .control-label {
-	padding-top: 14px;
+.sign-in-header {
+	font-family: "proxima_nova_ltsemibold";
+	color: #4f4f4f;
+	font-size: 2.5em;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-top: -20px;
+	margin-bottom: 10px;
+}
+
+.sign-in label {
+	margin-left: 16px;
+	margin-bottom: 4px!important;
 }
 
 .sign-in-btn {
@@ -28,7 +39,6 @@
 	width: 100%;
 	padding-top: 12px;
 	padding-bottom: 12px;
-	display: inline-block;
 	margin-right: 20px; 
 }
 
@@ -39,14 +49,10 @@
 }
 
 .reset-password {
-	margin-top: 0px;
-	margin-left: -30px;
 	margin-bottom: 20px;
 }
 
 .reset-password a {
-	text-align: right;
-	margin-left: 30px;
 	color: #4f4f4f;
 }
 
@@ -59,9 +65,10 @@
 	padding-top: 14px;
 	color: #fff;
 	height: 48px;
+	width: 100%;
 	border-radius: 4px;
-	margin-left: -10px;
-	margin-right: -14px;
+/*	margin-left: -10px;
+	margin-right: -14px;*/
 }
 
 a.facebook-button:hover {
@@ -94,9 +101,7 @@ a.facebook-button:hover {
 		margin-right: 5%;
 	}
 
-	.facebook-button div {
-		margin-left: -16px;
-	}
+
 
 }
 
