@@ -9,7 +9,11 @@
   padding-top: 5px; }
 
 .logo {
+  -webkit-transition: all 0.2s ease-in-out;
   height: 36px; }
+
+.logo:hover {
+  opacity: 0.7; }
 
 .navbar-default .navbar-nav > li > a {
   font-family: "proxima_nova_ltsemibold";

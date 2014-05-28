@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  
+        <!-- Hammer reload -->
+          <script>
+            setInterval(function(){
+              try {
+                if(typeof ws != 'undefined' && ws.readyState == 1){return true;}
+                ws = new WebSocket('ws://'+(location.host || 'localhost').split(':')[0]+':35353')
+                ws.onopen = function(){ws.onclose = function(){document.location.reload()}}
+                ws.onmessage = function(){
+                  var links = document.getElementsByTagName('link'); 
+                    for (var i = 0; i < links.length;i++) { 
+                    var link = links[i]; 
+                    if (link.rel === 'stylesheet' && !link.href.match(/typekit/)) { 
+                      href = link.href.replace(/((&|\?)hammer=)[^&]+/,''); 
+                      link.href = href + (href.indexOf('?')>=0?'&':'?') + 'hammer='+(new Date().valueOf());
+                    }
+                  }
+                }
+              }catch(e){}
+            }, 1000)
+          </script>
+        <!-- /Hammer reload -->
+      
+  
+  <link rel='stylesheet' href='../../assets/css/normalize.css'>
+<link rel='stylesheet' href='../../assets/css/bootstrap-theme.css'>
+<link rel='stylesheet' href='../../assets/css/bootstrap.css'>
+<link rel='stylesheet' href='../../assets/css/nav.css'>
+<link rel='stylesheet' href='../../assets/css/ios.css'>
+<link rel='stylesheet' href='../../assets/css/home.css'>
+<link rel='stylesheet' href='../../assets/css/sign-in.css'>
+<link rel='stylesheet' href='../../assets/css/core-classes.css'>
+<link rel='stylesheet' href='../../assets/css/music-classes.css'>
+<link rel='stylesheet' href='../../assets/css/lesson.css'>
+<link rel='stylesheet' href='../../assets/css/instructors.css'>
+<link rel='stylesheet' href='../../assets/css/stories.css'>
+<link rel='stylesheet' href='../../assets/css/faq.css'>
+<link rel='stylesheet' href='../../assets/css/privacy.css'>
+<link rel='stylesheet' href='../../assets/css/terms.css'>
+<link rel='stylesheet' href='../../assets/css/contact.css'>
+<link rel='stylesheet' href='../../assets/css/colorbox.css'>
+<link rel='stylesheet' href='../../assets/css/footer.css'>
+  <script src='../../assets/js/jquery-1.8.3.min.js'></script>
+<script src='../../assets/js/jquery.stellar.js'></script>
+<script src='../../assets/js/bootstrap.js'></script>
+<script src='../../assets/js/device.js'></script>
+<script src='../../assets/js/jquery.colorbox-min.js'></script>
+<script src='../../assets/js/app.js'></script>
+  
+  <link href="../../assets/favicon.ico" rel="shortcut icon">
+  <link href="../../assets/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <title>WorshipU</title>
+  
+</head>
+
+<body>
+
+  <header class = "main-header">
+    
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/"><img class= "logo" src="/assets/images/logo@2x.png"></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href= "/core-classes/">Classes</a></li>
+		    <li><a href= "#">Blog</a></li>
+		    <li><a href= "/sign-in/">Sign In</a></li>
+		    <li class= "trial-button"><a href= "#">Start Free Trial</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+  </header>
+
+  <section>
+    <!-- Write your HTML! -->
+    <div class="hero-img" id="electric"></div>
+
+
+	<div class="block" id="lesson-description">
+    	<div class="container">
+	    	<div class="row">
+	  			<div class="col-md-12"><h1>Electric</h1>
+				<p>With the influence of bands like U2 and Coldplay, electric guitar has become a predominant instrument in the worship band setting. Memorable lead lines, repetitious guitar hooks, and anthemic solos have become commonplace in today’s popular worship songs. As an electric guitar player, you must have the technical skills and unique stylings needed to keep up with this modern sound. 
+                <br><br>In this Electric Guitar In Worship course from WorshipU, Mike Pope helps electric guitarists step into this worship format. With years of studio experience as well as being featured on Bethel Live albums like “For the Sake of the World”, Mike discusses how to play electric guitar in worship to achieve optimum quality. 
+                <br><br>He first stresses the importance of learning parts. This portion of guitar lessons teaches more than just the technical skills required to playing guitar; it also sheds light on the role of an electric guitarist in regards to supporting the worship leader. In the end, if the band is not unified and the worship leader feels unsupported, the worship set will not be as successful as it could be.
+                <br><br>Beyond that, Mike gives a lot of insightful tips for playing spontaneously. This is an art form that requires some trial and error to truly master. Mike hopes to alleviate some of those mistakes so you can immediately add more value to your worship team in flowing moments, transitions, and spontaneous music. 
+                <br><br>Mike also touches on the use of his pedalboard and tone qualities. Using mostly his Fender Telecaster, he shows you how he sets his delay pedals and utilizes his volume and overdrive pedals to capture the best sound. 
+                <br><br>These online guitar lessons are released over the course of 7 weeks, including tutorials for some of Bethel Music’s favorite songs. Each week, you will have plenty of time to practice what you learn and improve your guitar playing. Also, elective discussion boards will give you the chance to interact with other worship guitarists around the globe. </p>
+				</div>
+
+			</div>
+		</div>
+    </div>
+
+    <div class="block" id="sample-lesson">
+    	<div class="container">
+	    	<div class="row">
+    			<div class="col-lg-12"><h1>Try a Sample Lesson</h1>
+<!--     			<a class='youtube cboxElement' href="http://www.youtube.com/embed/mTFMPZJC-7k?rel=0&autoplay=1&wmode=transparent"/><img class="sample-lesson-thumb" src="assets/images/sample-lesson.jpg"></a> -->
+
+    			<div class="videoWrapper">
+    				<iframe width="560" height="349" src="http://www.youtube.com/embed/bUgdS-vz6lI" frameborder="0" allowfullscreen></iframe>
+  				</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>	
+
+  
+
+
+	
+
+
+
+
+
+  </section>
+  
+</body>
+	<div class="clearfix footer-bg">
+		<p>Need help or have questions? Our team is here to help! Call us toll free: 855-939-6774</p>
+		<ul class="footer">	
+			<li> <a href="faq/">FAQ</a> </li>
+			<li> <a href="terms/">Terms</a> </li>
+			<li> <a href="privacy/">Privacy</a> </li>
+			<li> <a href="contact/">Contact</a> </li>
+		</ul>
+		<div class="copyright">Copyright WorshipU 2014</div>
+	</div>
+</html>
