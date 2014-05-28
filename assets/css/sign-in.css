@@ -102,7 +102,32 @@ a.facebook-button:hover {
 	}
 
 
-
 }
 
 
+@media (max-width: 480px) {
+
+	.sign-in-header {
+		display: none;
+	}
+
+	.sign-in {
+		margin-top: 80px;
+		width: 100%;
+		margin-right: 0;
+		margin-left: 0;
+	}
+
+	.sign-in label {
+		padding-top: 0;
+		margin-top: -20px!important;
+	}
+
+	.reset-password {
+		margin-bottom: 0;
+	}
+
+	.form-control {
+		height: 42px;
+	}
+}
