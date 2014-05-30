@@ -1,9 +1,10 @@
 /* Write your CSS! */
 .navbar {
   width: 100%;
-  display: table;
-  height: 50px;
-  padding: 10px; }
+  display: block;
+  height: 70px;
+  padding: 10px;
+  margin: 0; }
 
 .navbar-brand {
   padding-top: 5px; }
@@ -50,9 +51,6 @@
 
 .trial-button:hover {
   background-color: #66c680; }
-
-html {
-  height: 100%; }
 
 @media (max-width: 1024px) {
   .trial-button {

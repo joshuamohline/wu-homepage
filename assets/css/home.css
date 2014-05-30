@@ -200,6 +200,15 @@
 	position: relative;
 }
 
+.student-hidden {
+	opacity: 0;
+}
+
+.student-active {
+	-webkit-transition: all 1s ease-in-out;
+	opacity: 1;
+}
+
 .student-name {
 	font-family: "proxima_nova_ltsemibold";
 	font-size: .9em;

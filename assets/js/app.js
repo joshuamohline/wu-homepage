@@ -59,7 +59,60 @@ $(document).ready(function(){
 
   	});
 
+  	window.map_has_arrived = false;
 
-	
+
+	// Returns true if the specified element has been scrolled into the viewport.
+	function isElementInViewport(elem) {
+	    var $elem = $(elem);
+
+	    // Get the scroll position of the page.
+	    var scrollElem = ((navigator.userAgent.toLowerCase().indexOf('webkit') != -1) ? 'body' : 'html');
+	    var viewportTop = $(scrollElem).scrollTop();
+	    var viewportBottom = viewportTop + $(window).height();
+
+	    // Get the position of the element on the page.
+	    var elemTop = Math.round( $elem.offset().top );
+	    var elemBottom = elemTop + $elem.height();
+
+	    return ((elemTop < viewportBottom) && (elemBottom > viewportTop));
+
+	}
+
+	// Check if it's time to start the animation.
+	function checkAnimation() {
+	    var $elem = $('.map');
+
+	    if (isElementInViewport($elem)) {
+	    	if (window.map_has_arrived == false){
+	    		window.map_has_arrived = true;
+		        // Start the animation
+		        window.studentTimeout1 = window.setTimeout(function(){$(".student1").removeClass("student-hidden").addClass("student-active");}, 500);
+				
+				window.studentTimeout2 = window.setTimeout(function(){$(".student2").removeClass("student-hidden").addClass("student-active");}, 1000);
+				
+				window.studentTimeout3 = window.setTimeout(function(){$(".student3").removeClass("student-hidden").addClass("student-active");}, 1500);
+				
+				window.studentTimeout4 = window.setTimeout(function(){$(".student4").removeClass("student-hidden").addClass("student-active");}, 2000);
+			}
+	    }
+
+	    else {
+	    	if (window.map_has_arrived == true) {
+	    		window.map_has_arrived = false;
+		    	window.clearTimeout(window.studentTimeout1);
+		    	window.clearTimeout(window.studentTimeout2);
+		    	window.clearTimeout(window.studentTimeout3);
+		    	window.clearTimeout(window.studentTimeout4);
+		    	$('.student1, .student2, .student3, .student4').addClass('student-hidden').removeClass('student-active');
+		    }	    	
+    	}
+	}
+
+	// Capture scroll events
+	$(window).scroll(function(){
+	    checkAnimation();
+	});
+
 
 });
