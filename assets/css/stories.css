@@ -2,16 +2,26 @@
 	margin-top: 140px;
 }
 
+.testimony {
+	font-family: "proxima_nova_rgregular";
+	background-color: #f6f6f6;
+	padding-left: 15px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+
+}
+
 .content#more-stories {
 	margin-top: -280px;
 	margin-bottom: 60px;
 	height: auto;
 }
 
-.content#more-stories img {
-	width: 200px;
-	height: 200px;
+.testimony-pic {
+	width: 100%;
 	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 40px;
 }
 
 .content#more-stories h1 {
@@ -30,17 +40,14 @@
 	padding-bottom: 30px;
 }
 
-.content#more-stories .story {
+.content#more-stories .testimony {
 	margin-bottom: 0px;
 }
 
 @media (max-width: 991px) {
-	.more-stories h1 {
-		margin-left: 10%;
-	}
+
 
 	.more-stories p {
-		margin-left: 10%;
 		width: 80%;
 	}
 
@@ -49,16 +56,15 @@
 	}	
 
 	.content#more-stories h1 {
-		padding-top: 5px;
-	}
-
-	.content#more-stories img {
-		width: 140px;
-		height: 140px;
+		padding-top: 20px;
 	}
 
 	.content#more-stories .name	{
 		padding-bottom: 20px;
+	}
+
+	.content#more-stories .story-body {
+		margin-top: -20px;
 	}
 
 }
@@ -84,9 +90,12 @@
 	.content#more-stories h1 {
 		text-align: left;
 		width: 95%;
+		margin-top: -150px;
+		margin-left: 120px;
 	}
 
-	.content#more-stories img {
+	.testimony-pic {
+		margin-left: -15px;
 		width: 120px;
 		height: 120px;
 	}
@@ -100,15 +109,6 @@
 		font-size: 1.4em;
 	}
 
-	.content#more-stories .story-body {
-		width: 90%;
-		margin-left: 10px;
-		margin-top: 18%;
-	}
-
-	.content#more-stories .name {
-		margin-left: 10px;
-	}
 }
 
 

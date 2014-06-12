@@ -459,6 +459,9 @@
 		padding-top: 160px;
 	}
 
+	.story {
+		height: 166px;
+	}
 	
 }
 
@@ -563,6 +566,7 @@
 
 	.story {
 		width: 80%;
+		height: auto;
 		margin-left: auto;
 		margin-right: auto;
 	}	
