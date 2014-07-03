@@ -158,7 +158,7 @@
 
 .img2 {
 	background: url(../images/photo-cafe-lg.jpg) no-repeat bottom left;
-	height: 900px;
+	height: 640px;
 	width: 100%;
 	background-size: cover;
 	background-attachment: fixed;
@@ -179,7 +179,7 @@
 
 .img3 {
 	background: url(../images/photo-library-lg.jpg) no-repeat bottom right;
-	height: 700px;
+	height: 640px;
 	width: 100%;
 	background-size: cover;
 	background-position-x: 50% !important; 
@@ -275,8 +275,8 @@
 
 
 .img4 {
-	background: url(../images/photo-sofa-lg.jpg) no-repeat;
-	height: 700px;
+	background: url(../images/photo-rooftop-lg.jpg) no-repeat;
+	height: 640px;
 	width: 100%;
 	background-size: cover;
 	background-position-x: 100% !important;
@@ -302,10 +302,11 @@
 
 
 .img5 {
-	background: url(../images/photo-sofa-lg.jpg) no-repeat bottom left;
-	height: 700px;
+	background: url(../images/photo-sofa-lg.jpg) no-repeat bottom right;
+	height: 640px;
 	width: 100%;
 	background-size: cover;
+	background-position-x: 80% !important;
 	background-attachment: fixed;
 }
 

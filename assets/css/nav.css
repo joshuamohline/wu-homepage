@@ -1,76 +1,111 @@
 /* Write your CSS! */
+
 .navbar {
-  width: 100%;
-  display: block;
-  height: 70px;
-  padding: 10px;
-  margin: 0; }
+	width: 100%;
+	display: block;	
+	height: 70px;
+	padding: 10px;
+	margin: 0;
+	z-index: 1000000;
+}
 
 .navbar-brand {
-  padding-top: 5px; }
+	padding-top: 5px;
+}
 
 .logo {
-  -webkit-transition: all 0.2s ease-in-out;
-  height: 36px; }
+	-webkit-transition: all 0.2s ease-in-out;
+	height: 36px;
+	
+}	
 
 .logo:hover {
-  opacity: 0.7; }
+	opacity: 0.7;
+}
 
 .navbar-default .navbar-nav > li > a {
-  font-family: "proxima_nova_ltsemibold";
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: 1em;
-  color: #4f4f4f;
-  padding-left: 10px;
-  padding-right: 10px;
-  text-decoration: none; }
+	font-family: "proxima_nova_ltsemibold";
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 1em;
+	color: #4f4f4f;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+}
+
 
 .navbar a:hover {
-  color: #303030;
-  text-decoration: none; }
+	color: #303030;
+	text-decoration: none;
+}
+
+.navbar-collapse {
+	/*border-top:none;*/
+}
 
 .trial-button {
-  -webkit-transition: all 0.3s ease-in-out;
-  background-color: #6fda8c;
-  border-radius: 4px;
-  margin-left: 10px;
-  padding-left: 8px;
-  padding-right: 8px; }
+	-webkit-transition: all 0.3s ease-in-out;
+	background-color: #6fda8c;
+	border-radius: 4px;
+	margin-left: 10px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
 
 .navbar-default .navbar-nav > li.trial-button a {
-  color: #fff; }
+	color: #fff;
+}
 
 .trial-button a:hover {
-  text-decoration: none;
-  color: #fff; }
+	text-decoration: none;
+	color: #fff;
+}
 
 .navbar-default .navbar-nav > li.trial-button a:active {
-  color: #f0f0f0;
-  -webkit-transition: all 0.1s linear; }
+	color: #f0f0f0;	
+	-webkit-transition: all 0.1s linear
+}
 
 .trial-button:hover {
-  background-color: #66c680; }
+	background-color: #66c680;
+}
 
-@media (max-width: 1024px) {
-  .trial-button {
-    text-align: center;
-    margin-right: 10px; } }
+
+@media (max-width: 1024px){
+	.trial-button{
+		text-align: center;
+		margin-right: 10px;
+	}
+}
+
+
 @media (max-width: 390px) {
-  .navbar {
-    height: 64px; }
+	.navbar {
+		height: 64px;
+	}
+	
+	.navbar-brand {
+		padding-top: 2px;
+		margin-left: -10px;
+	}
 
-  .navbar-brand {
-    padding-top: 2px;
-    margin-left: -10px; }
+	.logo{
+		height: 26px;
+	}
 
-  .logo {
-    height: 26px; }
+	.navbar-toggle {
+		margin-top: -2px;
+		margin-right: -2px;
+	}
+}
 
-  .navbar-toggle {
-    margin-top: -2px;
-    margin-right: -2px; } }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
+
   /* Don't forget your Retina CSS! */
+  
   body {
-    background-size: 72px 72px; } }
+    background-size: 72px 72px;
+  }
+
+}
