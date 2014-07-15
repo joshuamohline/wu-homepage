@@ -651,6 +651,18 @@
 
 	}
 
+	.img2 {
+		background: url(../images/photo-cafe-sm.jpg) no-repeat right;
+		height: 400px;
+		/*background-position-y: 50%!important;*/
+	}	
+
+	.img5 {
+		background: url(../images/photo-sofa-sm.jpg) no-repeat right;
+		height: 400px;
+		background-position-x: 50%!important;
+	}	
+
 	.trial-button#hero {
 		margin-left: 0;
 	}
