@@ -1,6 +1,6 @@
 .hero-img#music-classes {
 	background: url(../images/music-hero-lg.jpg) no-repeat top right;
-	height: 500px;
+	height: 60vh;
 	width: 100%;
 	background-size: cover;
 	background-position-x: 50% !important;
