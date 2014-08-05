@@ -85,7 +85,7 @@
 	height: 400px;
 	width: 100%;
 	background-size: cover;
-	background-position-x: 50% !important;
+	background-position-y: 30% !important;
 	background-color: #202020;
 
 }
@@ -106,7 +106,7 @@
 	margin-top: 64px;
 	height: 400px;
 	width: 100%;
-	background-position-x: 50% !important;
+	background-position-y: 26% !important;
 	background-color: #202020;
 }
 
