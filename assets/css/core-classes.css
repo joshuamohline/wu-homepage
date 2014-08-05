@@ -1,6 +1,6 @@
 .hero-img#core-classes{
 	background: url(../images/core-hero-lg.jpg) no-repeat top right;
-	height: 700px;
+	height: 500px;
 	width: 100%;
 	background-size: cover;
 	background-position-x: 50% !important;
@@ -13,10 +13,10 @@
 	letter-spacing: 3px;
 	text-transform: uppercase;
 	text-align: center;
-	margin-top: 70px;
+	margin-top: 64px;
 	margin-bottom: 0;
 	width: 100%;
-	position: fixed;
+	position: absolute;
 	z-index: 1;
 	box-shadow: 0px 1px 5px #e0e0e0;
 }
@@ -25,7 +25,7 @@
 	-webkit-transition: all 0.3s ease-in-out;
 	background-color: #fff!important;
 	color: #4f4f4f!important;
-	position: fixed;
+	position: absolute;
 }
 
 .not-active:hover {
@@ -36,8 +36,8 @@
 
 .nav-box1,
 .nav-box2 {
-	height: 50px;
-	padding-top: 16px;
+	height: 44px;
+	padding-top: 12px;
 	width: 50%;
 	background-color: #f0f0f0;
 	display: inline-block;	
@@ -62,12 +62,12 @@
 .arrow-down {
 	width: 0; 
 	height: 0; 
-	border-left: 20px solid transparent;
-	border-right: 20px solid transparent;
+	border-left: 16px solid transparent;
+	border-right: 16px solid transparent;
 	margin-top: 10px; 
 	margin-left: 47%;
 	position: absolute;
-	border-top: 20px solid #fff;
+	border-top: 14px solid #fff;
 }
 
 .hero-img#core-classes .header{
@@ -89,6 +89,7 @@
 	text-align: center;	
 	width: 80%;
 	margin-left: 10%;
+	margin-top: -10px;
 }
 
 .block#classes p {

@@ -23,6 +23,18 @@
 
 }
 
+@font-face {
+    font-family: 'proxima_nova_rgbold';
+    src: url(../fonts/proximanova-bold-webfont.eot);
+    src: url(../fonts/proximanova-bold-webfont.eot?#iefix) format('embedded-opentype'),
+         url(../fonts/proximanova-bold-webfont.woff) format('woff'),
+         url(../fonts/proximanova-bold-webfont.ttf) format('truetype'),
+         url(../fonts/proximanova-bold-webfont.svg#proxima_nova_rgbold) format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 .img1 {
 	background: url(../images/photo-hero-lg.jpg) no-repeat top right;
 	height: 700px;
@@ -47,7 +59,7 @@
 }
 
 .header {
-	font-family: "proxima_nova_ltsemibold";
+	font-family: "proxima_nova_rgbold";
 	font-size: 5em;
 	color: #fff;
 	padding-top: 250px;
@@ -60,6 +72,13 @@
 	color: #fff;
 	letter-spacing: 1px;
 	padding-top: 10px;
+}
+
+.disclaimer {
+	font-family: "proxima_nova_rgregular";
+	font-size: 1em;
+	color: #fff;
+	/*padding-top: 10px;*/
 }
 
 .trial-button#hero {
@@ -123,11 +142,11 @@
 }
 
 .block h1 {
-	font-family: "proxima_nova_ltsemibold";
+	font-family: "proxima_nova_rgbold";
 	font-size: 2.5em;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 	color: #4f4f4f;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 }
 
 .block p {
@@ -587,7 +606,8 @@
 	}
 
 	.header,
-	.sub-header {
+	.sub-header,
+	.disclaimer {
 	 	padding-left: 20px;
 	}
 
