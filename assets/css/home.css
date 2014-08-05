@@ -35,6 +35,10 @@
 
 }
 
+.strike {
+	color: #ee3c23;
+}
+
 .img1 {
 	background: url(../images/photo-hero-lg.jpg) no-repeat top right;
 	height: 700px;
@@ -89,8 +93,8 @@
 	text-transform: uppercase;
 	width: 35%;
 	text-align: center;
-	padding-top: 14px;
-	padding-bottom: 14px;
+	padding-top: 12px;
+	padding-bottom: 12px;
 	margin-top: 20px;
 	margin-left: 0; 
 	display: inline-block;
@@ -114,8 +118,8 @@
 	border-radius: 4px;
 	display: inline-block;
 	text-align: center;
-	padding-top: 14px;
-	padding-bottom: 14px;
+	padding-top: 12px;
+	padding-bottom: 12px;
 	margin-top: 20px;
 	margin-left: 20px; 
 	text-decoration: none;
