@@ -115,4 +115,43 @@ $(document).ready(function(){
 	});
 
 
+
+
+	// instructor animations
+
+	window.instructors_has_arrived = false;
+
+	function checkinstructorsAnimation() {
+	    var $elem = $('#instructors');
+
+	    if (isElementInViewport($elem)) {
+	    	if (window.instructors_has_arrived == false){
+	    		window.instructors_has_arrived = true;
+		        // Start the animation
+		        window.instructorsTimeout1 = window.setTimeout(function(){$("#instructors-img1").removeClass("instructors-hidden").addClass("instructors-active");}, 500);
+				
+				window.instructorsTimeout2 = window.setTimeout(function(){$("#instructors-img2").removeClass("instructors-hidden").addClass("instructors-active");}, 1100);
+				
+				window.instructorsTimeout3 = window.setTimeout(function(){$("#instructors-img3").removeClass("instructors-hidden").addClass("instructors-active");}, 1800);
+				
+			}
+	    }
+
+	    else {
+	    	if (window.instructors_has_arrived == true) {
+	    		window.instructors_has_arrived = false;
+		    	window.clearTimeout(window.instructorsTimeout1);
+		    	window.clearTimeout(window.instructorsTimeout2);
+		    	window.clearTimeout(window.instructorsTimeout3);
+		    	$('.instructors-img').addClass('instructors-hidden').removeClass('instructors-active');
+		    }	    	
+    	}
+	}
+
+	// Capture scroll events
+	$(window).scroll(function(){
+	    checkinstructorsAnimation();
+	});
+
+
 });
