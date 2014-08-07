@@ -105,10 +105,16 @@
 
 @media (max-width: 390px) {
 	.navbar {
-		height: 64px;
+		height: 50px;
+		margin-bottom: 0;
 	}
 	
+	.navbar-collapse.collapse.in {
+		margin-top: -100px;
+	}
+
 	.navbar-brand {
+		height: 40px;
 		padding-top: 2px;
 		margin-left: -10px;
 	}
