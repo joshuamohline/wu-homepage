@@ -54,6 +54,7 @@
 <script src='assets/js/device.js'></script>
 <script src='assets/js/jquery.colorbox-min.js'></script>
 <script src='assets/js/app.js'></script>
+<script src='assets/js/animations.js'></script>
   
   <link href="assets/favicon.ico" rel="shortcut icon">
   <link href="assets/apple-touch-icon.png" rel="apple-touch-icon">
@@ -105,7 +106,7 @@
 					<div class="sub-header">Be equipped & empowered to live a life of worship.
 					<br>Start today 
 					<span style="text-decoration: line-through; color: red;"><span style="color: #fff;">$29.95</span></span>
-					$19.95 per month*</div>
+					<span class="allisons-fancy-sale-price">$19.95</span> per month*</div>
 					<div class="disclaimer">*Limited time introductory price</div>
 					<a class="trial-button" id="hero" href="#">Free Trial</a>
 					<a class="video-button youtube cboxElement" href="http://www.youtube.com/embed/mTFMPZJC-7k?rel=0&autoplay=1&wmode=transparent">Watch Video</a>					
@@ -125,7 +126,16 @@
 				<a href="core-classes/index.html">Learn More</a>
 				</div>
 
-	  			<div class="col-sm-6 hidden-xs"><img class="iPad" src="assets/images/iPad.png"></div>
+	  			<div class="col-sm-6 hidden-xs">
+            <div id="ipad-container">
+              <img class="iPad" src="assets/images/iPad.png">
+              <div id="ipad-animation">
+                <div id="ipad-nav"></div>
+                <div id="ipad-body"></div>
+              </div>
+            </div>
+          </div>
+
 			</div>
 		</div>
     </div>
@@ -135,7 +145,20 @@
      <div class="block" id="songwriting">
     	<div class="container">
 	    	<div class="row">
-	    		<div class="col-sm-6 hidden-xs"><img class="MacBook" src="assets/images/macbook.png"></div>
+	    		
+	    		<div class="col-sm-6 hidden-xs">
+            <div id="macbook-container">
+              <img class="MacBook" src="assets/images/macbook.png">
+
+              <div id="macbook-animation">
+                <div id="macbook-nav"></div>
+                <div id="macbook-body-1" class="macbook-body"></div>
+                <div id="macbook-body-2" class="macbook-body"></div>
+                <div id="macbook-body-3" class="macbook-body"></div>
+              </div>
+            </div>
+          </div>
+
 	  			<div class="col-sm-6"><h1>Develop Your Songwriting and Music Skills</h1>
 				<p>Award winning songwriters and worship leaders will help you improve as a singer, songwriter or musician.</p>
 				<a href="music-classes/index.html">Learn More</a>
