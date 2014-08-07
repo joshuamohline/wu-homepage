@@ -132,7 +132,7 @@ $(document).ready(function(){
 				
 				window.instructorsTimeout2 = window.setTimeout(function(){$("#instructors-img2").removeClass("instructors-hidden").addClass("instructors-active");}, 1100);
 				
-				window.instructorsTimeout3 = window.setTimeout(function(){$("#instructors-img3").removeClass("instructors-hidden").addClass("instructors-active");}, 1800);
+				window.instructorsTimeout3 = window.setTimeout(function(){$("#instructors-img3").removeClass("instructors-hidden").addClass("instructors-active");}, 1700);
 				
 			}
 	    }
