@@ -108,6 +108,8 @@
 
 .video-button {
         -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
         font-family: "proxima_nova_ltsemibold";
         font-size: 1em;
         color: #fff;
@@ -202,6 +204,8 @@
   background: transparent url(../images/ipad/ipad-body.png) no-repeat left top;
   background-size: 754px 664px;
   -webkit-transition: all 3s ease-in-out;
+  -moz-transition: all 3s ease-in-out;
+  transition: all 3s ease-in-out;
 }
 
 #ipad-animation #ipad-body.stage-2 {
@@ -215,6 +219,8 @@
 #ipad-animation #ipad-body.stage-4 {
   background-position: left top !important;
   -webkit-transition: none;
+  -moz-transition: none;
+  transition: none;
 }
 
 @media (max-width: 1199px) {
@@ -294,6 +300,8 @@
   height: 237px;
   width: 100%;
   -webkit-transition: all 3s ease-in-out;
+  -moz-transition: all 3s ease-in-out;
+  transition: all 3s ease-in-out;
   position: absolute;
   opacity: 1;
 }
@@ -304,6 +312,8 @@
 
 #macbook-animation .macbook-body.no-animate {
   -webkit-transition: none;
+  -moz-transition: none;
+  transition: none;
 }
 
 #macbook-animation #macbook-body-1 {
@@ -403,6 +413,8 @@
 
 .student-active {
         -webkit-transition: all 1s ease-in-out;
+        -moz-transition: all 1s ease-in-out;
+        transition: all 1s ease-in-out;
         opacity: 1;
 }
 
@@ -573,6 +585,8 @@
 
 .button {
         -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
         font-family: "proxima_nova_ltsemibold";
         font-size: 1.2em;
         text-align: center;
@@ -601,6 +615,8 @@
 .button:active {
         color: #f0f0f0;
         -webkit-transition: all 0.1s linear;
+        -moz-transition: all 0.1s linear;
+        transition: all 0.1s linear;
         text-decoration: none;
         color: #e0e0e0;
 
