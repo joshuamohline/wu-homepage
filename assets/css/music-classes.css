@@ -1,6 +1,6 @@
 .hero-img#music-classes {
 	background: url(../images/music-hero-lg.jpg) no-repeat top right;
-	height: 700px;
+	height: 500px;
 	width: 100%;
 	background-size: cover;
 	background-position-x: 50% !important;
@@ -19,7 +19,7 @@
 	font-family: "proxima_nova_ltsemibold";
 	font-size: 4em;
 	color: #fff;
-	padding-top: 340px;
+	padding-top: 220px;
 	line-height: 1em;
 }
 

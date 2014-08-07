@@ -23,6 +23,21 @@
 
 }
 
+@font-face {
+    font-family: 'proxima_nova_rgbold';
+    src: url('proximanova-bold-webfont.eot');
+    src: url('proximanova-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('proximanova-bold-webfont.woff') format('woff'),
+         url('proximanova-bold-webfont.ttf') format('truetype'),
+         url('proximanova-bold-webfont.svg#proxima_nova_rgbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.allisons-fancy-sale-price {
+	color: #15ba79;
+}
+
 .img1 {
 	background: url(../images/photo-hero-lg.jpg) no-repeat top right;
 	height: 700px;
@@ -34,20 +49,20 @@
 .presents {
 	background-color: #f0f0f0;
 	font-family: "proxima_nova_ltsemibold";
-	font-size: 1em;
+	font-size: .9em;
 	letter-spacing: 3px;
 	text-transform: uppercase;
 	color: #4f4f4f;
 	text-align: center;
 	width: 100%;
-	height: 40px;
-	margin-top: 70px;
-	padding-top: 12px;
+	height: 34px;
+	margin-top: 64px;
+	padding-top: 8px;
 	opacity: .9;
 }
 
 .header {
-	font-family: "proxima_nova_ltsemibold";
+	font-family: "proxima_nova_rgbold";
 	font-size: 5em;
 	color: #fff;
 	padding-top: 250px;
@@ -62,6 +77,13 @@
 	padding-top: 10px;
 }
 
+.disclaimer {
+	font-family: "proxima_nova_rgregular";
+	font-size: 1em;
+	color: #fff;
+	/*padding-top: 10px;*/
+}
+
 .trial-button#hero {
 	font-family: "proxima_nova_ltsemibold";
 	font-size: 1em;
@@ -70,8 +92,8 @@
 	text-transform: uppercase;
 	width: 35%;
 	text-align: center;
-	padding-top: 14px;
-	padding-bottom: 14px;
+	padding-top: 12px;
+	padding-bottom: 12px;
 	margin-top: 20px;
 	margin-left: 0; 
 	display: inline-block;
@@ -84,6 +106,7 @@
 }
 
 .video-button {
+	-webkit-transition: all 0.3s ease-in-out;
 	font-family: "proxima_nova_ltsemibold";
 	font-size: 1em;
 	color: #fff;
@@ -94,8 +117,8 @@
 	border-radius: 4px;
 	display: inline-block;
 	text-align: center;
-	padding-top: 14px;
-	padding-bottom: 14px;
+	padding-top: 12px;
+	padding-bottom: 12px;
 	margin-top: 20px;
 	margin-left: 20px; 
 	text-decoration: none;
@@ -103,7 +126,6 @@
 
 .video-button:hover {
 	background-color: #8b8b8b;
-	-webkit-transition: all 0.3s linear;
 	text-decoration: none;
 	color: #e0e0e0;
 
@@ -123,11 +145,11 @@
 }
 
 .block h1 {
-	font-family: "proxima_nova_ltsemibold";
+	font-family: "proxima_nova_rgbold";
 	font-size: 2.5em;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 	color: #4f4f4f;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 }
 
 .block p {
@@ -158,7 +180,7 @@
 
 .img2 {
 	background: url(../images/photo-cafe-lg.jpg) no-repeat bottom left;
-	height: 900px;
+	height: 640px;
 	width: 100%;
 	background-size: cover;
 	background-attachment: fixed;
@@ -179,7 +201,7 @@
 
 .img3 {
 	background: url(../images/photo-library-lg.jpg) no-repeat bottom right;
-	height: 700px;
+	height: 640px;
 	width: 100%;
 	background-size: cover;
 	background-position-x: 50% !important; 
@@ -198,6 +220,15 @@
 	margin-top: -200px;
 	margin-left: 20px;
 	position: relative;
+}
+
+.student-hidden {
+	opacity: 0;
+}
+
+.student-active {
+	-webkit-transition: all 1s ease-in-out;
+	opacity: 1;
 }
 
 .student-name {
@@ -266,8 +297,8 @@
 
 
 .img4 {
-	background: url(../images/photo-sofa-lg.jpg) no-repeat;
-	height: 700px;
+	background: url(../images/photo-rooftop-lg.jpg) no-repeat;
+	height: 640px;
 	width: 100%;
 	background-size: cover;
 	background-position-x: 100% !important;
@@ -293,10 +324,11 @@
 
 
 .img5 {
-	background: url(../images/photo-sofa-lg.jpg) no-repeat bottom left;
-	height: 700px;
+	background: url(../images/photo-sofa-lg.jpg) no-repeat bottom right;
+	height: 640px;
 	width: 100%;
 	background-size: cover;
+	background-position-x: 80% !important;
 	background-attachment: fixed;
 }
 
@@ -365,6 +397,7 @@
 }
 
 .button {
+	-webkit-transition: all 0.3s ease-in-out;
 	font-family: "proxima_nova_ltsemibold";
 	font-size: 1.2em;
 	text-align: center;
@@ -386,7 +419,6 @@
 
 .button:hover {
 	background-color: #66c680;
-	-webkit-transition: all 0.3s linear;
 	text-decoration: none;
 	color: #f0f0f0;
 }
@@ -450,6 +482,9 @@
 		padding-top: 160px;
 	}
 
+	.story {
+		height: 166px;
+	}
 	
 }
 
@@ -554,6 +589,7 @@
 
 	.story {
 		width: 80%;
+		height: auto;
 		margin-left: auto;
 		margin-right: auto;
 	}	
@@ -573,7 +609,8 @@
 	}
 
 	.header,
-	.sub-header {
+	.sub-header,
+	.disclaimer {
 	 	padding-left: 20px;
 	}
 
@@ -636,6 +673,18 @@
 		background-position-x: 50%!important;
 
 	}
+
+	.img2 {
+		background: url(../images/photo-cafe-sm.jpg) no-repeat right;
+		height: 400px;
+		/*background-position-y: 50%!important;*/
+	}	
+
+	.img5 {
+		background: url(../images/photo-sofa-sm.jpg) no-repeat right;
+		height: 400px;
+		background-position-x: 50%!important;
+	}	
 
 	.trial-button#hero {
 		margin-left: 0;

@@ -2,43 +2,64 @@
 
 .navbar {
 	width: 100%;
-	display: table;	
-	height: 50px;
+	display: block;	
+	height: 64px;
 	padding: 10px;
+	margin: 0;
+	z-index: 1000000;
+	opacity: .95;
 }
 
 .navbar-brand {
-	padding-top: 5px;
+	padding-top: 6px;
 }
 
 .logo {
-	height: 36px;
+	-webkit-transition: all 0.2s ease-in-out;
+	height: 30px;
 	
 }	
 
+.logo:hover {
+	opacity: 0.7;
+}
+
 .navbar-default .navbar-nav > li > a {
-	font-family: "proxima_nova_ltsemibold";
+	font-family: "proxima_nova_rgbold";
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	font-size: 1em;
+	font-size: .9em;
 	color: #4f4f4f;
 	padding-left: 10px;
 	padding-right: 10px;
 	text-decoration: none;
+	margin-top: -3px;
 }
 
 
-.navbar a:hover {
-	color: #303030;
+.navbar-default .navbar-nav > li > a:hover {
+	color: #ee3c23;
 	text-decoration: none;
 }
 
+
+.navbar-collapse.collapse.in {
+	border-top:none;
+	background: #fff;
+	padding: 0 24px 10px 24px;
+	margin-top: 4px;
+	margin-left: -30px;
+	margin-right: -30px;
+}
+
 .trial-button {
+	-webkit-transition: all 0.3s ease-in-out;
 	background-color: #6fda8c;
 	border-radius: 4px;
 	margin-left: 10px;
 	padding-left: 8px;
 	padding-right: 8px;
+	height: 44px;
 }
 
 .navbar-default .navbar-nav > li.trial-button a {
@@ -57,13 +78,6 @@
 
 .trial-button:hover {
 	background-color: #66c680;
-	-webkit-transition: all 0.3s linear
-}
-
-
-
-html {
-  height: 100%;
 }
 
 
@@ -72,6 +86,20 @@ html {
 		text-align: center;
 		margin-right: 10px;
 	}
+}
+
+
+@media (max-width: 991px) {
+	.navbar-default .navbar-nav > li > a {
+		font-size: .8em;
+	}
+
+	.trial-button {
+		padding-left: 1px;
+		padding-right: 1px;
+	}
+
+
 }
 
 

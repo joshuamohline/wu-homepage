@@ -1,0 +1,133 @@
+.sign-in {
+	margin-top: 140px;
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+	font-family: "proxima_nova_rgregular";
+}
+
+.form-control {
+	font-size: 1.2em;
+	height: 50px;
+}
+
+.sign-in-header {
+	font-family: "proxima_nova_ltsemibold";
+	color: #4f4f4f;
+	font-size: 2.5em;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-top: -20px;
+	margin-bottom: 10px;
+}
+
+.sign-in label {
+	margin-left: 16px;
+	margin-bottom: 4px!important;
+}
+
+.sign-in-btn {
+	-webkit-transition: all 0.3s ease-in-out;
+	background-color: #6fda8c;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #fff;
+	text-shadow: 0 0;
+	font-family: "proxima_nova_ltsemibold";
+	border-radius: 4px;
+	border-color: #6fda8c;
+	width: 100%;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	margin-right: 20px; 
+}
+
+.sign-in-btn:hover {
+	background-color: #66c680;
+	border-color: #6fda8c;
+	color: #fff;
+}
+
+.reset-password {
+	margin-bottom: 20px;
+}
+
+.reset-password a {
+	color: #4f4f4f;
+}
+
+.facebook-button div{
+	-webkit-transition: all 0.3s ease-in-out;
+	background-color: #3b5998;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-align: center;
+	padding-top: 14px;
+	color: #fff;
+	height: 48px;
+	width: 100%;
+	border-radius: 4px;
+/*	margin-left: -10px;
+	margin-right: -14px;*/
+}
+
+a.facebook-button:hover {
+	text-decoration: none;
+}
+
+.sign-in .facebook-button div:hover {
+	color: #fff;
+	text-decoration: none;
+	background-color: #30497c;
+}
+
+
+@media (max-width: 991px) {
+
+	.sign-in {
+		width: 70%;
+		margin-left: 15%;
+		margin-right: 15%;
+	}
+
+}
+
+
+@media (max-width: 767px) {
+
+	.sign-in {
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+
+}
+
+
+@media (max-width: 480px) {
+
+	.sign-in-header {
+		display: none;
+	}
+
+	.sign-in {
+		margin-top: 80px;
+		width: 100%;
+		margin-right: 0;
+		margin-left: 0;
+	}
+
+	.sign-in label {
+		padding-top: 0;
+		margin-top: -20px!important;
+	}
+
+	.reset-password {
+		margin-bottom: 0;
+	}
+
+	.form-control {
+		height: 42px;
+	}
+}

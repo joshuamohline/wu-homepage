@@ -1,14 +1,18 @@
+body, html {
+	height: 100%;
+}
+
 .hero-img#instructors {
 	background: url(../images/instructors-hero-lg.jpg) no-repeat top right;
 	background-size: cover;
-	height: 700px;
-	width: 100%;
-	background-position-x: 50% !important;
+	background-position-x: 50% !important; 
+	height: 500px;
 }
+
 
 .block#instructor-summary {
 	height: auto;
-	padding-top: 60px;
+	padding-top: 40px;
 	padding-bottom: 80px;
 	border-bottom: 1px solid #e0e0e0;
 }
