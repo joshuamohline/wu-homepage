@@ -213,14 +213,28 @@
 }
 
 #ipad-animation #ipad-body.stage-3 {
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
   background-position: right bottom;
 }
 
 #ipad-animation #ipad-body.stage-4 {
-  background-position: left top !important;
+  opacity: 0;
+}
+
+#ipad-animation #ipad-body.stage-5 {
   -webkit-transition: none;
   -moz-transition: none;
   transition: none;
+  background-position: left top;
+}
+
+#ipad-animation #ipad-body.stage-6 {
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  opacity: 1;
 }
 
 @media (max-width: 1199px) {
@@ -299,9 +313,6 @@
 #macbook-animation .macbook-body {
   height: 237px;
   width: 100%;
-  -webkit-transition: all 3s ease-in-out;
-  -moz-transition: all 3s ease-in-out;
-  transition: all 3s ease-in-out;
   position: absolute;
   opacity: 1;
 }
@@ -311,31 +322,53 @@
 }
 
 #macbook-animation .macbook-body.no-animate {
-  -webkit-transition: none;
-  -moz-transition: none;
-  transition: none;
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  transition: none !important;
 }
 
 #macbook-animation #macbook-body-1 {
   background: transparent url(../images/mac/macbook-body-1.png) no-repeat left top;
   background-size: 419px 237px;
   z-index: 3;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
+
+#macbook-animation #macbook-body-1.stage-2 {
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
 
 #macbook-animation #macbook-body-2 {
   background: transparent url(../images/mac/macbook-body-2.png) no-repeat left top;
   background-size: 419px 1014px;
   z-index: 2;
+  -webkit-transition: all 4s ease-in-out;
+  -moz-transition: all 4s ease-in-out;
+  transition: all 4s ease-in-out;
 }
 
 #macbook-animation #macbook-body-2.stage-2 {
   background-position: left bottom;
 }
 
+#macbook-animation #macbook-body-2.stage-3 {
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
 #macbook-animation #macbook-body-3 {
   background: transparent url(../images/mac/macbook-body-3.png) no-repeat left top;
   background-size: 419px 237px;
   z-index: 1;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 @media (max-width: 1199px) {

@@ -24,17 +24,21 @@ var ipad_animation = function() {
   ipad_stage_2($ipad_body);
   ipad_stage_3($ipad_body);
   ipad_stage_4($ipad_body);
+  ipad_stage_5($ipad_body);
+  ipad_stage_6($ipad_body);
 
   setInterval(function(){
     ipad_stage_2($ipad_body);
     ipad_stage_3($ipad_body);
     ipad_stage_4($ipad_body);
-  }, 11000);
+    ipad_stage_5($ipad_body);
+    ipad_stage_6($ipad_body);
+  }, 8000);
 
 };
 
 var ipad_stage_2 = function($ipad_body) {
-  $ipad_body.removeClass('stage-4');
+  $ipad_body.removeClass('stage-2 stage-3 stage-4 stage-5 stage-6');
   $ipad_body.addClass('stage-2');
 };
 
@@ -47,8 +51,19 @@ var ipad_stage_3 = function($ipad_body) {
 var ipad_stage_4 = function($ipad_body) {
   setTimeout(function(){
     $ipad_body.addClass('stage-4');
-    $ipad_body.removeClass('stage-2 stage-3');
-  }, 10000);
+  }, 6000);
+};
+
+var ipad_stage_5 = function($ipad_body) {
+  setTimeout(function(){
+    $ipad_body.addClass('stage-5');
+  }, 6500);
+};
+
+var ipad_stage_6 = function($ipad_body) {
+  setTimeout(function(){
+    $ipad_body.addClass('stage-6');
+  }, 7000);
 };
 
 var listen_for_macbook_start = function() {
@@ -80,39 +95,66 @@ var macbook_animation = function () {
   macbook_stage_2($macbook_body_1, $macbooks);
   macbook_stage_3($macbook_body_2);
   macbook_stage_4($macbook_body_2);
-  macbook_stage_5($macbooks);
+  macbook_stage_5($macbook_body_2);
+  macbook_stage_6($macbook_body_3);
+  macbook_stage_7($macbook_body_1);
+  macbook_stage_8($macbooks);
 
   setInterval(function() {
     macbook_stage_2($macbook_body_1, $macbooks);
     macbook_stage_3($macbook_body_2);
     macbook_stage_4($macbook_body_2);
-    macbook_stage_5($macbooks);
-  }, 15000);
+    macbook_stage_5($macbook_body_2);
+    macbook_stage_6($macbook_body_3);
+    macbook_stage_7($macbook_body_1);
+    macbook_stage_8($macbooks);
+  }, 13500);
 
 };
 
 var macbook_stage_2 = function($macbook_body_1, $macbooks) {
   $macbooks.removeClass('no-animate');
-  $macbook_body_1.addClass('disabled');
+  setTimeout(function(){
+    $macbook_body_1.addClass('disabled');
+  }, 1000);
 };
 
 var macbook_stage_3 = function($macbook_body_2) {
   setTimeout(function(){
     $macbook_body_2.addClass('stage-2');
-  }, 4000);
+  }, 3000);
 };
 
 var macbook_stage_4 = function($macbook_body_2) {
   setTimeout(function(){
-    $macbook_body_2.addClass('disabled');
-  }, 8000);
+    $macbook_body_2.addClass('stage-3');
+  }, 7000);
 };
 
-var macbook_stage_5 = function($macbooks) {
+var macbook_stage_5 = function($macbook_body_2) {
+  setTimeout(function(){
+    $macbook_body_2.addClass('disabled');
+  }, 7500);
+};
+
+var macbook_stage_6 = function($macbook_body_3) {
+  setTimeout(function(){
+    $macbook_body_3.addClass('disabled');
+  }, 10500);
+};
+
+var macbook_stage_7 = function($macbook_body_1) {
+  setTimeout(function(){
+    $macbook_body_1.addClass('stage-2');
+    $macbook_body_1.removeClass('disabled');
+  }, 12000);
+};
+
+var macbook_stage_8 = function($macbooks) {
   setTimeout(function(){
     $macbooks.addClass('no-animate');
-    $macbooks.removeClass('disabled stage-2');
-  }, 14000);
+    $macbooks.removeClass('disabled stage-2 stage-3');
+  }, 13000);
 };
 
 $(document).ready(function(){
