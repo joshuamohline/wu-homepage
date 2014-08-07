@@ -99,6 +99,10 @@
 		padding-right: 1px;
 	}
 
+	.navbar-toggle {
+		margin-top: 4px;
+		/*margin-right: -2px;*/
+	}
 
 }
 

@@ -80,8 +80,13 @@ body.iphone .img5 {
 	}
 	
 	body.iphone .main-header .navbar-brand {
-	margin-bottom: 4px;
+	height: 40px;
+	margin-top: -3px;
 	}
+
+	body.iphone .main-header .navbar-collapse {
+		margin-top: 0;
+	} 
 
 	body.iphone .main-header .logo {
 	height: 26px;
@@ -89,7 +94,8 @@ body.iphone .img5 {
 	}
 
 	body.iphone .main-header .navbar-toggle {
-	margin: 0;
+	margin-right: 0;
+	margin-top: -2px;
 	}
 
 	/*Hero styles*/
