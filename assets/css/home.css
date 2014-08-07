@@ -535,12 +535,12 @@
 
 
 .img5 {
-        background: url(../images/photo-sofa-lg.jpg) no-repeat bottom right;
-        height: 640px;
-        width: 100%;
-        background-size: cover;
-        background-position-x: 80% !important;
-        background-attachment: fixed;
+    background: url(../images/photo-sofa-lg.jpg) no-repeat bottom right;
+    height: 640px;
+    width: 100%;
+    background-size: cover;
+    background-position-x: 80% !important;
+    background-attachment: fixed;
 }
 
 
@@ -562,144 +562,154 @@
 }
 
 .story-body {
-        font-size: 1.1em;
-        margin-top: 20px;
-        margin-right: 20px;
+    font-size: 1.1em;
+    margin-top: 20px;
+    margin-right: 20px;
 }
 
 .story {
-        font-family: "proxima_nova_rgregular";
-        background-color: #f6f6f6;
-        padding-left: 15px;
-        margin-top: 20px;
-        margin-bottom: 30px;
+    font-family: "proxima_nova_rgregular";
+    background-color: #f6f6f6;
+    padding-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 30px;
 
 }
 
 .student-pic {
-        width: 100px;
-        height: 100px;
-        margin-top: 15px;
-        margin-bottom: 15px;
-        margin-right:15px;
-        float: left;
+    width: 100px;
+    height: 100px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right:15px;
+    float: left;
 }
 
 .name {
-        font-family: "proxima_nova_ltsemibold";
-        font-size: 1.1em;
-        color: #4f4f4f;
-        margin-bottom: 15px;
+    font-family: "proxima_nova_ltsemibold";
+    font-size: 1.1em;
+    color: #4f4f4f;
+    margin-bottom: 15px;
 }
 
 
 #stories a {
-        display: block;
-        text-align: center;
+    display: block;
+    text-align: center;
 }
 
 .trial-block {
-        height: 140px;
-        width: 100%;
-        background-color: #303030;
-        padding-top: 30px;
-        padding-bottom: 30px;
+    height: 140px;
+    width: 100%;
+    background-color: #303030;
+    padding-top: 30px;
+    padding-bottom: 30px;
 
 }
 
 .button {
-        -webkit-transition: all 0.3s ease-in-out;
-        -moz-transition: all 0.3s ease-in-out;
-        transition: all 0.3s ease-in-out;
-        font-family: "proxima_nova_ltsemibold";
-        font-size: 1.2em;
-        text-align: center;
-        color: #fff;
-        background-color: #6fda8c;
-        width: 350px;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        border-radius: 4px;
-        padding-top: 14px;
-        padding-bottom: 14px;
-        display: block;
-        margin-left:auto;
-        margin-right: auto;
-        margin-top: 14px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    font-family: "proxima_nova_ltsemibold";
+    font-size: 1.2em;
+    text-align: center;
+    color: #fff;
+    background-color: #6fda8c;
+    width: 350px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 4px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 14px;
 
 }
 
 
 .button:hover {
-        background-color: #66c680;
-        text-decoration: none;
-        color: #f0f0f0;
+    background-color: #66c680;
+    text-decoration: none;
+    color: #f0f0f0;
 }
 
 .button:active {
-        color: #f0f0f0;
-        -webkit-transition: all 0.1s linear;
-        -moz-transition: all 0.1s linear;
-        transition: all 0.1s linear;
-        text-decoration: none;
-        color: #e0e0e0;
+    color: #f0f0f0;
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+    text-decoration: none;
+    color: #e0e0e0;
 
 }
 
 @media (max-width:1199px) {
 
-        .block#leader h1 {
-                padding-top: 150px;
-        }
+    .block#leader h1 {
+            padding-top: 150px;
+    }
 
-        #ipad-container {
-                padding-top: 23%;
-                padding-left: 12%;
-        }
+    #ipad-container {
+            padding-top: 23%;
+            padding-left: 12%;
+    }
 
-        .block#songwriting h1 {
-                padding-top: 110px;
-        }
+    .block#songwriting h1 {
+            padding-top: 110px;
+    }
 
-        #macbook-conatiner {
-                padding-top: 24%;
-        }
+    #macbook-conatiner {
+            padding-top: 24%;
+    }
 
-        .block#community h1 {
-                padding-top: 120px;
-        }
+    .block#community h1 {
+            padding-top: 120px;
+    }
 
-        .student1 {
-                margin-left: 0px;
-                margin-top: -150px;
-        }
+    .student1 {
+            margin-left: 0px;
+            margin-top: -150px;
+    }
 
-        .student2 {
-                margin-left: 200px;
-                margin-top: -150px;
-        }
+    .student2 {
+            margin-left: 200px;
+            margin-top: -150px;
+    }
 
-        .student3 {
-                margin-left: 220px;
-                margin-top: 30px;
-        }
+    .student3 {
+            margin-left: 220px;
+            margin-top: 30px;
+    }
 
-        .student4 {
-                margin-left: 300px;
-                margin-top: -160px;
-        }
+    .student4 {
+            margin-left: 300px;
+            margin-top: -160px;
+    }
 
-        .map {
-                margin-top: 130px;
-        }
+    .map {
+            margin-top: 130px;
+    }
 
-        .instructors-img-lg {
-                padding-top: 160px;
-        }
+    #instructors-img3 {
+            margin-top: 200px;
+    }
+    
+    #instructors-img2 {
+            margin-top: -130px;
+            margin-left: 58px;
+    }
+    
+    #instructors-img1 {
+            margin-top: -170px;
+            margin-left: 145px;
+    }
 
-        .story {
-                height: 166px;
-        }
+    .story {
+            height: 166px;
+    }
 
 }
 
@@ -707,80 +717,86 @@
 @media (max-width: 991px) {
 
         .header {
-                padding-top: 300px;
-        }
+            padding-top: 300px;
+        }   
 
 
         #ipad-container {
-                padding-top: 40%;
-                padding-left: 15%;
+            padding-top: 40%;
+            padding-left: 15%;
         }
 
         .block#leader h1 {
-                padding-top: 100px;
+            padding-top: 100px;
         }
 
         .block#songwriting h1 {
-                padding-top: 90px;
+            padding-top: 90px;
         }
 
         #macbook-container {
-                padding-top: 40%;
+            padding-top: 40%;
         }
 
         .block#songwriting h1,
         .block#songwriting p,
         .block#songwriting a {
-                margin-left: 20px;
+            margin-left: 20px;
         }
 
         .block#community h1 {
-                padding-top: 90px;
+            padding-top: 90px;
         }
         .block#community h1,
         .block#community p,
         .block#community a {
-                margin-left: 20px;
+            margin-left: 20px;
         }
 
 
         .block#instructors h1 {
-                padding-top: 90px;
+            padding-top: 90px;
         }
 
-        .instructors-img3 {
-                display: none;
+        #instructors-img1 {
+            margin-left: 85px;
+            margin-top: -160px;
+            width: 53%;
         }
 
-        .instructors-img-sm {
-                display: block;
-                width: 100%;
-                padding-left: 60px;
-                padding-top: 160px;
+        #instructors-img2 {
+            margin-left: 0px; 
+            margin-top: 180px;
+            width: 100%;
         }
+
+        #instructors-img3 {
+            display: none;
+        }
+
 
         .community-pic {
-                height: 50px;
-                width: 50px;
+            height: 50px;
+            width: 50px;
         }
 
         .student1 {
-                margin-top: -140px;
+            margin-top: -140px;
         }
 
         .student2 {
-                margin-left: 150px;
-                margin-top: -95px;
+            margin-left: 150px;
+            margin-top: -95px;
         }
 
         .student3 {
-                margin-left: 160px;
-                margin-top: 40px;
+            margin-left: 160px;
+            margin-top: 40px;
         }
 
         .student4 {
-                margin-left: 220px;
-                margin-top: -130px;
+            margin-left: 220px;
+            margin-top: -130px;
         }
 
         .student-name,
@@ -789,24 +805,24 @@
         }
 
         .map {
-                padding-top: 60px;
+            padding-top: 60px;
         }
 
         .block#stories h1 {
-        padding-top: 0px;
+            padding-top: 0px;
         }
 
         .block#stories {
-                height: auto;
-                padding-top: 40px;
-                padding-bottom: 40px;
+            height: auto;
+            padding-top: 40px;
+            padding-bottom: 40px;
         }
 
         .story {
-                width: 80%;
-                height: auto;
-                margin-left: auto;
-                margin-right: auto;
+            width: 80%;
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
         }
 
 }
@@ -892,7 +908,6 @@
         .img2 {
                 background: url(../images/photo-cafe-sm.jpg) no-repeat right;
                 height: 400px;
-                /*background-position-y: 50%!important;*/
         }
 
         .img5 {
