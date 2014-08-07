@@ -727,7 +727,7 @@
         }
 
         .block#leader h1 {
-            padding-top: 100px;
+            padding-top: 120px;
         }
 
         .block#songwriting h1 {
@@ -745,7 +745,7 @@
         }
 
         .block#community h1 {
-            padding-top: 90px;
+            padding-top: 120px;
         }
         .block#community h1,
         .block#community p,
@@ -755,7 +755,7 @@
 
 
         .block#instructors h1 {
-            padding-top: 90px;
+            padding-top: 120px;
         }
 
         #instructors-img1 {
@@ -805,7 +805,7 @@
         }
 
         .map {
-            padding-top: 60px;
+            padding-top: 30px;
         }
 
         .block#stories h1 {
