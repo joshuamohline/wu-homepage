@@ -1,8 +1,16 @@
+section {
+	min-height: 100%;
+	height: auto !important;  /*This line and the next line are not necessary unless you need IE6 support */
+	height: 100%;
+	margin: 0 auto -170px;  /*the bottom margin is the negative value of the footer's height */
+}
+
 .contact {
-	margin-top: 140px;
+	margin-top: 100px;
 	width: 50%;
 	margin-left: 25%;
 	margin-right: 25%;
+	margin-bottom: 40px;
 	font-family: "proxima_nova_rgregular";
 }
 

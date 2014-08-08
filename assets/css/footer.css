@@ -5,6 +5,7 @@
 	background-color: #4f4f4f;
 	height: 170px;
 	padding-top: 30px;
+	width: 100%;
 }
 
 ul.footer {
@@ -34,6 +35,11 @@ ul.footer {
 
 }
 
+
+
+.push {
+	height: 170px;  /*.push must be the same height as .footer */
+}
 
 
 
