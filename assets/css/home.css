@@ -85,7 +85,7 @@
         /*padding-top: 10px;*/
 }
 
-.trial-button#hero {
+#hero-trial-button {
         font-family: "proxima_nova_ltsemibold";
         font-size: 1em;
         color: #fff;
@@ -100,7 +100,7 @@
         display: inline-block;
 }
 
-.trial-button#hero:hover {
+#hero-trial-button:hover {
         text-decoration: none;
         color: #f0f0f0;
 
@@ -878,7 +878,7 @@
                 padding-left: 20px;
         }
 
-        .trial-button#hero {
+        #hero-trial-buton {
                 margin-left: 20px;
         }
 
@@ -949,7 +949,7 @@
                 background-position-x: 50%!important;
         }
 
-        .trial-button#hero {
+        #hero-trial-button {
                 margin-left: 0;
         }
 
@@ -957,7 +957,7 @@
                 display: none;
         }
 
-        .trial-button#hero,
+        #hero-trial-button,
         .video-button {
                 width: 100%;
         }
