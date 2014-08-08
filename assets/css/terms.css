@@ -1,11 +1,11 @@
 .block#terms {
 	height: auto;
-	padding-bottom: 60px;
+	margin-bottom: 200px;
 }
 
 .block#terms .header {
 	text-transform: uppercase;
-	margin-top: -80px;
+	margin-top: -120px;
 	font-size: 2.5em;
 	color: #4f4f4f;
 	letter-spacing: 1px;
