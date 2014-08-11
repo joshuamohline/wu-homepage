@@ -111,7 +111,9 @@ $(document).ready(function(){
 
 	// Capture scroll events
 	$(window).scroll(function(){
+		if ($('#home-page').length > 0){
 	    checkAnimation();
+	  }
 	});
 
 
@@ -150,7 +152,9 @@ $(document).ready(function(){
 
 	// Capture scroll events
 	$(window).scroll(function(){
+		if ($('#home-page').length > 0){
 	    checkinstructorsAnimation();
+	  }
 	});
 
 

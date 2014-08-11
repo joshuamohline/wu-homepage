@@ -158,8 +158,8 @@ var macbook_stage_8 = function($macbooks) {
 };
 
 $(document).ready(function(){
-
-  listen_for_ipad_start();
-  listen_for_macbook_start();
-
+  if ($('#home-page').length > 0){
+    listen_for_ipad_start();
+    listen_for_macbook_start();
+  }
 });
