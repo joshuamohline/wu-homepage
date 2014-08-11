@@ -1,5 +1,5 @@
 (function() {
-  var alert_box, contact_submit, handle_redirect, is_success;
+  var alert_box, contact_submit, handle_redirect, is_thanks;
 
   alert_box = function(message) {
     var html;
@@ -28,7 +28,7 @@
     return $('#next').val(url);
   };
 
-  is_success = function() {
+  is_thanks = function() {
     var key, params, query, raw_vars, v, val, _i, _len, _ref;
     query = window.location.search.substring(1);
     raw_vars = query.split("&");
@@ -47,7 +47,7 @@
     if ($('#contact-page').length > 0) {
       contact_submit();
       handle_redirect();
-      return is_success();
+      return is_thanks();
     }
   });
 
