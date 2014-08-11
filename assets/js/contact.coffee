@@ -19,7 +19,7 @@ handle_redirect = ->
 	url += "?thanks=true"
 	$('#next').val(url)
 
-is_success = ->
+is_thanks = ->
 	query = window.location.search.substring(1)
 	raw_vars = query.split "&"
 	params = {}
@@ -34,4 +34,4 @@ $ ->
 	if $('#contact-page').length > 0
 		contact_submit()
 		handle_redirect()
-		is_success()
+		is_thanks()
