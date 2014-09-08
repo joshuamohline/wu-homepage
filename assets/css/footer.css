@@ -13,13 +13,13 @@ ul.footer {
 	padding-top: 10px;
 }
 
-.footer li a {
+.footer li a, .footer-bg a {
 	font-family: "proxima_nova_ltsemibold";
 	color: #fff;
 	text-decoration: none;
 }
 
-.footer li a:hover {
+.footer li a:hover, .footer a:hover {
 	color: #e0e0e0;
 }
 
