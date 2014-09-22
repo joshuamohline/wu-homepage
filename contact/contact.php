@@ -14,7 +14,7 @@ define(VOLT_REGEX_EMAIL_VALID_ADDRESS,
 $emails = "hello@worshipu.com";
 
 $mailBody = "\n" .
-"WorshipU Contacdt Form Submission\n " .
+"WorshipU Contact Form Submission\n " .
 "\n" .
 "SUBMITTED -- " . date("F j, Y, g:i a") . ".\n" .
 "------------------------------------------\n" .
