@@ -5,7 +5,7 @@
 
 #video-lesson {
 	background-color: #000;
-	height: 602px;
+	height: 540px;
 	margin-top: 64px;
 }
 
@@ -13,13 +13,41 @@
 	margin-top: -20px;
 }
 
+.finish-video {
+	margin-left: 4.7%;
+	margin-right: 4.7%;
+	background-color: #fff;
+	border-bottom: 1px solid #f0f0f0;
+	color: #4f4f4f;
+	font-family: "proxima_nova_ltsemibold";
+	font-size: 16px;
+	text-transform: uppercase;
+	letter-spacing: 2px; 
+	height: 70px;
+	padding: 24px 30px;
+	padding-right: 20px;
+	
+
+}
+
+.finish-btn {
+	color: #6fda8c;
+	border-radius: 4px;
+	padding: 8px 30px;
+	text-align: center;
+	border: 2px solid #6fda8c;
+	float: right;
+	margin-top: -33px;
+}
+
+
 /*////////// LESSON DETAILS /////////*/
 
 #lesson-info {
 	background-color: #fff;
-	width: 88%;
-	margin-left: 6%;
-	margin-right: 6%;
+	width: 88.2%;
+	margin-left: 5.9%;
+	margin-right: 5.9%;
 	padding: 30px; 
 }
 
@@ -72,7 +100,7 @@
 }
 
 #summary-btn:hover {
-	color: #fff;
+	color: #f0f0f0;
 	background-color: #ababab;
 }
 
@@ -96,7 +124,7 @@
 	margin-left: 7%;
 	position: absolute;
 	z-index: 3;
-	bottom: -9px;
+	/*bottom: -9px;*/
 	height: 0;
 	width: 0;
 	border-left: 12px solid transparent;
@@ -105,9 +133,57 @@
 }
 
 .comment-line {
-	height: 55px;
+	height: 80px;
 	border-left: 1px solid #e0e0e0;
 	position: absolute;
-	bottom: -64px;
+	/*bottom: -64px;*/
 	margin-left: 8%;
 }
+
+.post-btn {
+	font-family: "proxima_nova_ltsemibold";
+	font-size: 16px;
+	letter-spacing: 1px;
+	color: #6fda8c;
+	border: 2px solid #6fda8c;
+	padding: 8px 30px;
+	float: right;
+	margin: 20px 4.7%;
+}
+
+.post-btn:hover {
+	color: #f0f0f0;
+	background-color: #6fda8c;
+}
+
+.comment {
+	background-color: #fff;
+	margin-left: 4.7%;
+	margin-right: 4.7%;
+	padding: 20px;
+	font-family: "proxima_nova_rgregular";
+	font-size: 18px;
+	color: #4f4f4f;
+}
+
+.comment-info {
+	margin-left: 90px;
+}
+
+.comment-name {
+	font-family: "proxima_nova_ltsemibold";
+}
+
+.comment-date {
+	color: #ababab;
+	font-size: 12px;
+}
+
+.profile-pic {
+	border-radius: 100%;
+	width: 70px;
+	height: 70px;
+	float: left;
+	margin-right: 20px;
+}
+
