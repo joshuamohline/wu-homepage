@@ -1,0 +1,113 @@
+#app-wholepage {
+	background-color: #f0f0f0;
+	padding-bottom: 400px;
+}
+
+#video-lesson {
+	background-color: #000;
+	height: 602px;
+	margin-top: 64px;
+}
+
+#app-video {
+	margin-top: -20px;
+}
+
+/*////////// LESSON DETAILS /////////*/
+
+#lesson-info {
+	background-color: #fff;
+	width: 88%;
+	margin-left: 6%;
+	margin-right: 6%;
+	padding: 30px; 
+}
+
+#lesson-name {
+	font-family: "proxima_nova_ltsemibold";
+	font-size: 24px;
+	letter-spacing: 1px;
+	color: #4f4f4f;
+}
+
+#lesson-author {
+	font-family: "proxima_nova_rgregular";
+	font-size: 18px;
+	letter-spacing: 1px;
+	color: #4f4f4f;
+}
+
+#duration {
+	font-family: "proxima_nova_rgregular";
+	font-size: 14px;
+	letter-spacing: 1px;
+	color: #4f4f4f;
+	border-bottom: 1px solid #ababab;
+	padding-bottom: 20px;
+	padding-top: 5px;
+}
+
+#lesson-description {
+	font-family: "proxima_nova_rgregular";
+	font-size: 18px;
+	color: #4f4f4f;
+	margin-top: 20px;
+
+}
+
+#summary-btn {
+	font-family: "proxima_nova_ltsemibold";
+	font-size: 16px;
+	letter-spacing: 1px;
+	color: #ababab;
+	text-align: center;
+	border: 2px solid #ababab;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	text-transform: uppercase;
+	margin-left: 4.7%;
+	margin-right: 4.7%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#summary-btn:hover {
+	color: #fff;
+	background-color: #ababab;
+}
+
+
+/*////////// COMMENTS /////////*/
+
+#add-comment {
+	font-family: "proxima_nova_rgregular";
+	font-size: 18px;
+	color: #ababab;
+	background-color: #fff;
+	margin-left: 4.7%;
+	margin-right: 4.7%;
+	height: 100px;
+	padding: 20px;
+
+}
+
+.comment-triangle {
+	content: "";
+	margin-left: 7%;
+	position: absolute;
+	z-index: 3;
+	bottom: -9px;
+	height: 0;
+	width: 0;
+	border-left: 12px solid transparent;
+	border-right: 12px solid transparent;
+	border-top: 9px solid #fefefe;
+}
+
+.comment-line {
+	height: 55px;
+	border-left: 1px solid #e0e0e0;
+	position: absolute;
+	bottom: -64px;
+	margin-left: 8%;
+}
