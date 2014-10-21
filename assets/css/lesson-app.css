@@ -5,17 +5,23 @@
 
 #video-lesson {
 	background-color: #000;
-	height: 540px;
+	height: 560px;
 	margin-top: 64px;
 }
 
 #app-video {
 	margin-top: -20px;
+	padding-bottom: 52.2%;
+}
+
+#app-video iframe {
+	width: 80%;
+	margin-left: 10%;
 }
 
 .finish-video {
-	margin-left: 4.7%;
-	margin-right: 4.7%;
+	margin-left: 10%;
+	margin-right: 10%;
 	background-color: #fff;
 	border-bottom: 1px solid #f0f0f0;
 	color: #4f4f4f;
@@ -31,23 +37,33 @@
 }
 
 .finish-btn {
-	color: #6fda8c;
+	color: #fff;
+	background-color: #6fda8c;
 	border-radius: 4px;
-	padding: 8px 30px;
+	padding: 10px 30px;
 	text-align: center;
-	border: 2px solid #6fda8c;
 	float: right;
 	margin-top: -33px;
+	font-size: 14px;
 }
 
+.finish-btn:hover {
+	text-decoration: none;
+	background-color: #66c680;
+	color: #fff;
+}
+
+.big-btn:hover {
+	text-decoration: none;
+}
 
 /*////////// LESSON DETAILS /////////*/
 
-#lesson-info {
+.lesson-info {
 	background-color: #fff;
-	width: 88.2%;
-	margin-left: 5.9%;
-	margin-right: 5.9%;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
 	padding: 30px; 
 }
 
@@ -93,8 +109,8 @@
 	padding-top: 8px;
 	padding-bottom: 8px;
 	text-transform: uppercase;
-	margin-left: 4.7%;
-	margin-right: 4.7%;
+	margin-left: 10%;
+	margin-right: 10%;
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
@@ -112,8 +128,8 @@
 	font-size: 18px;
 	color: #ababab;
 	background-color: #fff;
-	margin-left: 4.7%;
-	margin-right: 4.7%;
+	margin-left: 10%;
+	margin-right: 10%;
 	height: 100px;
 	padding: 20px;
 
@@ -121,10 +137,9 @@
 
 .comment-triangle {
 	content: "";
-	margin-left: 7%;
+	margin-left: 12%;
 	position: absolute;
 	z-index: 3;
-	/*bottom: -9px;*/
 	height: 0;
 	width: 0;
 	border-left: 12px solid transparent;
@@ -136,8 +151,7 @@
 	height: 80px;
 	border-left: 1px solid #e0e0e0;
 	position: absolute;
-	/*bottom: -64px;*/
-	margin-left: 8%;
+	margin-left: 13%;
 }
 
 .post-btn {
@@ -148,7 +162,7 @@
 	border: 2px solid #6fda8c;
 	padding: 8px 30px;
 	float: right;
-	margin: 20px 4.7%;
+	margin: 20px 10%;
 }
 
 .post-btn:hover {
@@ -158,8 +172,8 @@
 
 .comment {
 	background-color: #fff;
-	margin-left: 4.7%;
-	margin-right: 4.7%;
+	margin-left: 10%;
+	margin-right: 10%;
 	padding: 20px;
 	font-family: "proxima_nova_rgregular";
 	font-size: 18px;
@@ -187,3 +201,102 @@
 	margin-right: 20px;
 }
 
+@media (max-width: 1199px) {
+	
+	#video-lesson {
+		height: 470px;
+	}
+}
+
+@media (max-width: 991px) {
+	
+	#video-lesson {
+		height: 440px;
+	}
+
+	#app-video iframe {
+		width: 100%;
+		margin-left: auto;
+	}
+
+	#app-video {
+		padding-bottom: 64%;
+	}
+
+	.finish-video {
+		width: 100%;
+		margin-left: auto;
+	}
+
+	.lesson-info {
+		width: 100%;
+		margin-left: auto;
+	}
+
+	#summary-btn {
+		width: 100%;
+		margin-left: auto;
+	}
+
+	#add-comment {
+		width: 100%;
+		margin-left: auto;
+	}
+
+	.post-btn {
+		margin-right: 0;
+	}
+
+	.comment-triangle {
+		margin-left: 5%
+	}
+
+	.comment-line {
+		margin-left: 6.5%; 
+	}
+
+	.comment {
+		width: 100%;
+		margin-left: auto;
+	}
+}
+
+@media (max-width: 767px) {
+	
+	#video-lesson {
+		height: auto;
+		margin-top: -3%;
+	}
+
+	#video-lesson .container {
+		margin-bottom: -16%;
+	}
+
+	.finish-video {
+		height: 120px;
+		padding: 20px;
+		text-align: center;
+	}
+
+	.finish-btn {
+		width: 100%;
+		margin-top: 10px;
+		margin-left: 0 auto;
+	}
+}
+
+@media (max-width: 408px) {
+	
+	#video-lesson .container {
+		margin-top: 8%;
+		margin-bottom: -20%;
+	}
+	
+	.finish-video {
+		height: 130px;
+	}
+
+	.comment-line {
+		margin-left: 7.5%;
+	}
+}
