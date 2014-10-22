@@ -23,7 +23,7 @@
 	margin-left: 10%;
 	margin-right: 10%;
 	background-color: #fff;
-	border-bottom: 1px solid #f0f0f0;
+	border-bottom: 4px solid #f0f0f0;
 	color: #4f4f4f;
 	font-family: "proxima_nova_ltsemibold";
 	font-size: 16px;
@@ -178,6 +178,7 @@
 	font-family: "proxima_nova_rgregular";
 	font-size: 18px;
 	color: #4f4f4f;
+	margin-bottom: 15px;
 }
 
 .comment-info {
