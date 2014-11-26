@@ -65,9 +65,65 @@ body.iphone .img5 {
 	height: 320px;  
 	background-size: 100%;
 }
+body.iphone .instructor-photos {
+	margin-bottom: 0;
+}
 
+body.iphone #instructor-summary h1 {
+	margin-top: 60px;
+}
 
+body.iphone .core-nav-box1 {
+	padding-left: 10px;
+	padding-right: 10px;
+}
 
+body.iphone .instructor p {
+	margin-left: 20%;
+}
+
+/* ========================================
+ * IPHONE 6 PLUS
+ * ======================================== */
+
+@media	(min-width: 414px) {
+	body.iphone .header {
+		padding-top: 90px;
+	}
+
+	body.iphone .trial-block {
+		height: 120px;
+	}	
+
+	body.iphone .footer-bg {
+		height: 200px;
+	}	
+
+	body.iphone .sub-nav {
+		margin-top: 63px!important;
+	}
+
+	body.iphone .block#lesson-description h1 {
+		margin-top: 0;
+	}
+
+	body.iphone .block#classes h1 {
+		margin-top: 0;
+	}
+
+	body.iphone .instructor-nav .core-nav-box1,
+	body.iphone .instructor-nav .music-nav-box2{
+		height: 50px!important;
+	}
+
+	body.iphone h1{
+		/*margin-top: 80px;*/
+	}
+}
+
+/* ========================================
+ * IPHONE LANDSCAPE
+ * ======================================== */
 
 @media (min-width: 480px) {
 	/*Navbar styles*/
