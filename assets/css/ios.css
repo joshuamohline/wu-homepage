@@ -82,13 +82,21 @@ body.iphone .instructor p {
 	margin-left: 20%;
 }
 
+@media	(max-width: 480px) {
+	body.iphone .header {
+		font-size: 3em; 
+		line-height: 1em;
+	}
+}
+
+
 /* ========================================
  * IPHONE 6 PLUS
  * ======================================== */
 
 @media	(min-width: 414px) {
 	body.iphone .header {
-		padding-top: 90px;
+		padding-top: 120px;
 	}
 
 	body.iphone .trial-block {
@@ -160,7 +168,6 @@ body.iphone .instructor p {
 	}
 	
 	body.iphone .header {
-		font-size: 4em;
 		padding-top: 100px;
 	}
 
