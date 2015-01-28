@@ -1,0 +1,229 @@
+.events-page {
+  font-family: "proxima_nova_rgregular";
+  font-size: 18px;
+  color: #4f4f4f;
+  margin-bottom: 60px; }
+  .events-page h1, .events-page h2, .events-page h3 {
+    font-family: "proxima_nova_rgbold";
+    text-align: center; }
+  .events-page h1 {
+    font-size: 60px; }
+  .events-page h2 {
+    margin-top: 60px; }
+  .events-page.subpage p {
+    padding-top: 20px; }
+  .events-page.subpage ul {
+    padding-top: 20px; }
+    .events-page.subpage ul li {
+      padding: 5px; }
+  .events-page .action-button a {
+    border: 2px solid white;
+    border-radius: 4px;
+    font-family: "proxima_nova_rgbold";
+    font-size: 14px;
+    color: white;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    line-height: 17px;
+    padding: 12px 40px;
+    display: inline-block;
+    margin-top: 12px; }
+    .events-page .action-button a:hover {
+      background: white;
+      color: #4f4f4f;
+      text-decoration: none; }
+  .events-page .action-button-2 {
+    text-align: center; }
+    .events-page .action-button-2 a {
+      border: 2px solid #4f4f4f;
+      border-radius: 4px;
+      font-family: "proxima_nova_rgbold";
+      font-size: 14px;
+      color: #4f4f4f;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      line-height: 17px;
+      padding: 12px 40px;
+      display: inline-block;
+      margin-top: 50px;
+      margin-bottom: 50px; }
+      .events-page .action-button-2 a:hover {
+        background: #4f4f4f;
+        color: white;
+        text-decoration: none; }
+  .events-page .action-button-3 a {
+    background: white;
+    opacity: 0.9;
+    border-radius: 4px;
+    font-family: "proxima_nova_rgbold";
+    font-size: 14px;
+    color: #4f4f4f;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    line-height: 17px;
+    padding: 12px 16px;
+    display: inline-block;
+    margin-bottom: 30px; }
+    .events-page .action-button-3 a:hover {
+      opacity: 1;
+      text-decoration: none; }
+  .events-page #events-header {
+    margin-top: 64px;
+    background: transparent url(/assets/images/events/hero-img.jpg) no-repeat center top;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    position: relative;
+    display: table; }
+    @media (max-width: 767px) {
+      .events-page #events-header {
+        background: transparent url(/assets/images/events/hero-mobile-img.jpg) no-repeat center center;
+        background-size: cover; } }
+    .events-page #events-header #over-content {
+      color: white;
+      text-align: center;
+      display: table-cell;
+      vertical-align: middle; }
+    .events-page #events-header #events-nav {
+      position: absolute;
+      bottom: 0%;
+      background: rgba(0, 0, 0, 0.8);
+      width: 100%;
+      left: 0; }
+      .events-page #events-header #events-nav ul {
+        margin: 0;
+        padding: 0;
+        text-align: center; }
+        .events-page #events-header #events-nav ul li {
+          list-style: none;
+          display: inline-block;
+          padding: 15px; }
+          .events-page #events-header #events-nav ul li a {
+            color: white;
+            font-size: 20px; }
+  .events-page #letter-container {
+    text-align: center;
+    padding-top: 60px;
+    position: relative;
+    color: white; }
+    .events-page #letter-container img {
+      width: 100%; }
+    @media (max-width: 767px) {
+      .events-page #letter-container {
+        padding: 0;
+        overflow-x: hidden; } }
+    .events-page #letter-container #letter-content {
+      position: absolute;
+      bottom: 0px;
+      left: 15px;
+      width: 750px;
+      background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0.65)));
+      background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
+      background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
+      background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); }
+      .events-page #letter-container #letter-content #name {
+        margin-bottom: 0px; }
+      .events-page #letter-container #letter-content #title {
+        margin-bottom: 15px; }
+      @media (max-width: 1200px) {
+        .events-page #letter-container #letter-content {
+          width: 615px; } }
+      @media (max-width: 991px) {
+        .events-page #letter-container #letter-content {
+          width: 720px; } }
+      @media (max-width: 767px) {
+        .events-page #letter-container #letter-content {
+          width: 100%;
+          left: 0px; } }
+  .events-page #curriculum-container .learn-button {
+    background: black;
+    color: white;
+    font-family: "proxima_nova_rgbold";
+    font-size: 30px;
+    text-align: center;
+    margin: 15px 0;
+    padding: 48px 0;
+    display: block; }
+    .events-page #curriculum-container .learn-button:hover {
+      text-decoration: none; }
+    .events-page #curriculum-container .learn-button#main {
+      background: black url(/assets/images/events/main-sessions-img.jpg) no-repeat center top;
+      background-size: cover; }
+    .events-page #curriculum-container .learn-button#breakout {
+      background: black url(/assets/images/events/breakout-img.jpg) no-repeat center top;
+      background-size: cover; }
+    .events-page #curriculum-container .learn-button#worship {
+      background: black url(/assets/images/events/worship-img.jpg) no-repeat center top;
+      background-size: cover; }
+    .events-page #curriculum-container .learn-button#community {
+      background: black url(/assets/images/events/community-img.jpg) no-repeat center top;
+      background-size: cover; }
+  @media (max-width: 767px) {
+    .events-page #curriculum-container {
+      text-align: center; }
+      .events-page #curriculum-container .learn-button {
+        display: inline-block;
+        width: 100%;
+        max-width: 360px; } }
+  .events-page #instructor-container {
+    margin-top: 60px;
+    padding-bottom: 60px;
+    background: #4f4f4f;
+    color: white; }
+    .events-page #instructor-container .instructor img {
+      width: 100%;
+      max-width: 250px; }
+    .events-page #instructor-container .instructor .instructor-name {
+      margin: 10px 0; }
+  .events-page #registration .reg-content a {
+    color: #4f4f4f;
+    text-decoration: underline; }
+  .events-page #registration p a {
+    color: #4f4f4f; }
+
+.reg-title {
+  font-family: "proxima_nova_rgbold";
+  margin-bottom: 10px;
+  margin-top: 40px; }
+
+#events-subpage-close {
+  padding-top: 50px;
+  position: relative;
+  z-index: 2; }
+  #events-subpage-close a {
+    color: #4f4f4f;
+    text-align: right;
+    display: block;
+    font-size: 30px; }
+    #events-subpage-close a:hover {
+      text-decoration: none;
+      color: black; }
+
+.sessions-header {
+  height: 400px;
+  text-align: center;
+  background: #4f4f4f;
+  position: relative;
+  margin-top: -112px;
+  display: table;
+  width: 100%; }
+  .sessions-header#main {
+    background: url(/assets/images/events/main-hero-img.jpg) no-repeat center top;
+    background-size: cover; }
+  .sessions-header#breakout {
+    background: url(/assets/images/events/breakout-hero-img.jpg) no-repeat center top;
+    background-size: cover; }
+  .sessions-header#worship {
+    background: url(/assets/images/events/worship-hero-img.jpg) no-repeat center top;
+    background-size: cover; }
+  .sessions-header#community {
+    background: url(/assets/images/events/community-hero-img.jpg) no-repeat center top;
+    background-size: cover; }
+  .sessions-header h1 {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    color: white; }
