@@ -15,6 +15,10 @@
   &.subpage
     p
       padding-top: 20px
+    ul
+      padding-top: 20px
+      li
+        padding: 5px
 
   .action-button
     a
@@ -177,6 +181,8 @@
 
 #events-subpage-close
   padding-top: 50px
+  position: relative
+  z-index: 2
   a
     color: #4f4f4f
     text-align: right
@@ -185,3 +191,20 @@
     &:hover
       text-decoration: none
       color: black
+
+.sessions-header
+  height: 400px
+  text-align: center
+  background: #4f4f4f
+  position: relative
+  margin-top: -112px
+
+  &#main
+    background: url(/assets/images/events/main-hero-img.jpg) no-repeat center top
+    background-size: cover
+
+  h1
+    position: absolute
+    bottom: 40%
+    width: 100%
+    color: white
