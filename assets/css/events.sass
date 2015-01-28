@@ -1,5 +1,52 @@
 #events-page
   font-family: 'proxima_nova_rgregular'
+  font-size: 18px
+  color: #4f4f4f
+  margin-bottom: 60px
+
+  h1, h2, h3
+    font-family: 'proxima_nova_rgbold'
+    text-align: center
+  h1
+    font-size: 60px
+  h2
+    margin-top: 60px
+
+  .action-button
+    a
+      border: 2px solid #FFFFFF
+      border-radius: 4px
+      font-family: 'proxima_nova_rgbold'
+      font-size: 14px
+      color: #FFFFFF
+      letter-spacing: 2px
+      text-transform: uppercase
+      line-height: 17px
+      padding: 12px 40px
+      display: inline-block
+      margin-top: 12px
+      &:hover
+        background: #FFFFFF
+        color: #4f4f4f
+        text-decoration: none
+
+  .action-button-3
+    a
+      background: #FFFFFF
+      opacity: .9
+      border-radius: 4px
+      font-family: 'proxima_nova_rgbold'
+      font-size: 14px
+      color: #4F4F4F
+      letter-spacing: 2px
+      text-transform: uppercase
+      line-height: 17px
+      padding: 12px 16px
+      display: inline-block
+      margin-bottom: 30px
+      &:hover
+        opacity: 1
+
   #events-header
     margin-top: 64px
     background: transparent url(/assets/images/events/hero-img.jpg) no-repeat center top
@@ -13,28 +60,6 @@
       text-align: center
       position: relative
       bottom: -35%
-
-      h1
-        font-size: 60px
-        font-family: 'proxima_nova_rgbold'
-
-      .action-button
-        a
-          border: 2px solid #FFFFFF
-          border-radius: 4px
-          font-family: 'proxima_nova_rgbold'
-          font-size: 14px
-          color: #FFFFFF
-          letter-spacing: 2px
-          text-transform: uppercase
-          line-height: 17px
-          padding: 12px 40px
-          display: inline-block
-          margin-top: 12px
-          &:hover
-            background: #FFFFFF
-            color: #4f4f4f
-            text-decoration: none
 
     #events-nav
       position: absolute
@@ -53,3 +78,49 @@
           a
             color: white
             font-size: 20px
+
+  #letter-container
+    text-align: center
+    margin-top: 60px
+    position: relative
+    color: white
+    #letter-content
+      position: absolute
+      bottom: 0px
+      left: 15px
+      width: 750px
+
+      background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 100%)
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65)))
+      background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%)
+      background: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%)
+      background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%)
+      background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%)
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 )
+
+      #name
+        margin-bottom: 0px
+      #title
+        margin-bottom: 15px
+
+  .learn-button
+    background: black
+    color: white
+    font-family: 'proxima_nova_rgbold'
+    font-size: 30px
+    text-align: center
+    margin: 15px 0
+    padding: 48px 0
+    display: block
+    &:hover
+      text-decoration: none
+
+    &#main
+      background: black url(/assets/images/events/main-sessions-img.jpg) no-repeat center top
+    &#breakout
+      background: black url(/assets/images/events/breakout-img.jpg) no-repeat center top
+    &#worship
+      background: black url(/assets/images/events/worship-img.jpg) no-repeat center top
+    &#community
+      background: black url(/assets/images/events/community-img.jpg) no-repeat center top
+
