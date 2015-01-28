@@ -83,6 +83,7 @@
     height: 600px
     width: 100%
     position: relative
+    display: table
 
     @media (max-width: 767px)
       background: transparent url(/assets/images/events/hero-mobile-img.jpg) no-repeat center center
@@ -91,14 +92,15 @@
     #over-content
       color: white
       text-align: center
-      position: relative
-      bottom: -35%
+      display: table-cell
+      vertical-align: middle
 
     #events-nav
       position: absolute
       bottom: 0%
       background: rgba(0,0,0,.8)
       width: 100%
+      left: 0
 
       ul
         margin: 0
