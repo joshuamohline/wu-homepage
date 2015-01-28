@@ -84,6 +84,10 @@
     width: 100%
     position: relative
 
+    @media (max-width: 767px)
+      background: transparent url(/assets/images/events/hero-mobile-img.jpg) no-repeat center center
+      background-size: cover
+
     #over-content
       color: white
       text-align: center
@@ -113,6 +117,13 @@
     padding-top: 60px
     position: relative
     color: white
+    img
+      width: 100%
+
+    @media (max-width: 767px)
+      padding: 0
+      overflow-x: hidden
+
     #letter-content
       position: absolute
       bottom: 0px
@@ -132,26 +143,48 @@
       #title
         margin-bottom: 15px
 
-  .learn-button
-    background: black
-    color: white
-    font-family: 'proxima_nova_rgbold'
-    font-size: 30px
-    text-align: center
-    margin: 15px 0
-    padding: 48px 0
-    display: block
-    &:hover
-      text-decoration: none
+      @media (max-width: 1200px)
+        width: 615px
 
-    &#main
-      background: black url(/assets/images/events/main-sessions-img.jpg) no-repeat center top
-    &#breakout
-      background: black url(/assets/images/events/breakout-img.jpg) no-repeat center top
-    &#worship
-      background: black url(/assets/images/events/worship-img.jpg) no-repeat center top
-    &#community
-      background: black url(/assets/images/events/community-img.jpg) no-repeat center top
+      @media (max-width: 991px)
+        width: 720px
+
+      @media (max-width: 767px)
+        width: 100%
+        left: 0px
+
+  #curriculum-container
+    .learn-button
+      background: black
+      color: white
+      font-family: 'proxima_nova_rgbold'
+      font-size: 30px
+      text-align: center
+      margin: 15px 0
+      padding: 48px 0
+      display: block
+      &:hover
+        text-decoration: none
+
+      &#main
+        background: black url(/assets/images/events/main-sessions-img.jpg) no-repeat center top
+        background-size: cover
+      &#breakout
+        background: black url(/assets/images/events/breakout-img.jpg) no-repeat center top
+        background-size: cover
+      &#worship
+        background: black url(/assets/images/events/worship-img.jpg) no-repeat center top
+        background-size: cover
+      &#community
+        background: black url(/assets/images/events/community-img.jpg) no-repeat center top
+        background-size: cover
+
+    @media (max-width: 767px)
+      text-align: center
+      .learn-button
+        display: inline-block
+        width: 100%
+        max-width: 360px
 
   #instructor-container
     margin-top: 60px
@@ -162,6 +195,7 @@
     .instructor
       img
         width: 100%
+        max-width: 250px
       .instructor-name
         margin: 10px 0
 
