@@ -10,5 +10,5 @@ events_nav_init = ->
       , 1000
 
 $ ->
-  if $('#events-page').length > 0
+  if $('#events-home').length > 0
     events_nav_init()
