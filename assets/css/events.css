@@ -171,7 +171,7 @@
   .events-page #instructor-container {
     margin-top: 60px;
     padding-bottom: 60px;
-    background: #4f4f4f;
+    background: #303030;
     color: white; }
     .events-page #instructor-container .instructor img {
       width: 100%;
@@ -190,17 +190,37 @@
   margin-top: 40px; }
 
 #events-subpage-close {
-  padding-top: 50px;
-  position: relative;
+  width: 50px;
+  height: 50px;
+  color: #4f4f4f;
+  background: white;
+  border: 1px solid #ababab;
+  right: 10%;
+  top: 50px;
+  opacity: 0.9;
+  position: fixed;
   z-index: 2; }
-  #events-subpage-close a {
-    color: #4f4f4f;
-    text-align: right;
+  #events-subpage-close:hover {
+    background: #4f4f4f;
+    color: white; }
+  #events-subpage-close .x {
     display: block;
-    font-size: 30px; }
-    #events-subpage-close a:hover {
-      text-decoration: none;
-      color: black; }
+    text-decoration: none;
+    font-size: 30px;
+    position: inherit;
+    top: 52px;
+    margin-left: 17px;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg); }
+    #events-subpage-close .x:hover {
+      text-decoration: none; }
+  @media (max-width: 767px) {
+    #events-subpage-close {
+      top: 24px;
+      right: 5%; }
+      #events-subpage-close .x {
+        top: 26px; } }
 
 .sessions-header {
   height: 400px;
