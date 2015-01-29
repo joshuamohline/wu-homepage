@@ -191,7 +191,7 @@
   #instructor-container
     margin-top: 60px
     padding-bottom: 60px
-    background: #4f4f4f
+    background: #303030
     color: white
 
     .instructor
@@ -216,17 +216,37 @@
   margin-top: 40px
 
 #events-subpage-close
-  padding-top: 50px
-  position: relative
+  width: 50px
+  height: 50px
+  color: #4f4f4f
+  background: #fff
+  border: 1px solid #ababab
+  right: 10%
+  top: 50px
+  opacity: 0.9
+  position: fixed
   z-index: 2
-  a
-    color: #4f4f4f
-    text-align: right
+  &:hover
+    background: #4f4f4f
+    color: #fff
+  .x
     display: block
+    text-decoration: none
     font-size: 30px
+    position: inherit
+    top: 52px
+    margin-left: 17px
+    -ms-transform: rotate(45deg)
+    -webkit-transform: rotate(45deg)
+    transform: rotate(45deg)
     &:hover
       text-decoration: none
-      color: black
+
+  @media (max-width: 767px) 
+    top: 24px
+    right: 5%
+    .x 
+      top: 26px
 
 .sessions-header
   height: 400px
