@@ -16,6 +16,30 @@
     padding-top: 20px; }
     .events-page.subpage ul li {
       padding: 5px; }
+  .events-page #title-wu {
+    font-family: "proxima_nova_rgbold";
+    text-align: center;
+    font-size: 48px; }
+    @media (max-width: 420px) {
+      .events-page #title-wu {
+        font-size: 30px; } }
+  .events-page span {
+    font-size: 70px;
+    letter-spacing: 6px; }
+    @media (max-width: 520px) {
+      .events-page span {
+        font-size: 60px; } }
+    @media (max-width: 420px) {
+      .events-page span {
+        font-size: 36px; } }
+  .events-page #title-campus {
+    font-family: "proxima_nova_rgbold";
+    margin-left: -20px; }
+    @media (max-width: 420px) {
+      .events-page #title-campus {
+        margin-left: -10px; } }
+  .events-page #title-on {
+    font-family: "proxima_nova_light"; }
   .events-page .action-button a {
     border: 2px solid white;
     border-radius: 4px;
@@ -68,7 +92,6 @@
       opacity: 1;
       text-decoration: none; }
   .events-page #events-header {
-    margin-top: 64px;
     background: transparent url(/assets/images/events/hero-img.jpg) no-repeat center top;
     background-size: cover;
     height: 600px;
